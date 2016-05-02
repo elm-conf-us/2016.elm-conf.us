@@ -1,0 +1,4 @@
+baseurl = "https://www.elm-conf.us/"
+languageCode = "en-us"
+title = "elm-conf 2016"
+theme = "elm-conf"
