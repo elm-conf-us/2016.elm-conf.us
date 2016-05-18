@@ -1,0 +1,40 @@
+// structure
+header {
+    width: 100%;
+
+    > nav {
+        @include outer-container;
+
+        .logo {
+            @include span-columns(9);
+        }
+
+        ul {
+            @include span-columns(3);
+
+            li {
+                @include span-columns(1 of 3);
+            }
+        }
+    }
+
+}
+
+// style
+header {
+    background-color: $header-color;
+    height: $baseline * 2;
+    line-height: $baseline * 2;
+
+    color: $text-color;
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+
+    > nav {
+        > ul > li {
+            text-align: center; 
+        }
+    }
+}

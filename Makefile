@@ -1,4 +1,8 @@
 site_deps=$(shell find themes content data layouts static themes)
+scss_deps=$(shell find scss)
 
-public: ${site_deps}
+public: ${site_deps} themes/elm-conf/static/css/main.css
 	hugo
+
+themes/elm-conf/static/css/main.css: ${scss_deps}
+	scss scss/main.scss themes/elm-conf/static/css/main.css

@@ -1,0 +1,17 @@
+// style
+#about {
+    background-color: $background-lighter;
+    padding-top: $baseline * 2;
+    padding-bottom: $baseline * 2;
+
+    .elm-logo {
+        @include retina-image(/images/logos/elm, 250px 250px);
+        width: 250px;
+        height: 250px;
+        text-indent: -9999px;
+
+        float: right;
+        box-shadow: 0 0 $baseline/2 $baseline/2 fade_out($background-color, .5);
+        margin-left: $baseline;
+    }
+}

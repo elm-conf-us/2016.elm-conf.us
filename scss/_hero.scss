@@ -1,0 +1,17 @@
+// style
+#hero {
+    text-align: center;
+    padding-top: $baseline * 4;
+    padding-bottom: $baseline * 2;
+
+    background: linear-gradient(
+                        to bottom,
+                        fade_out($header-color, .2),
+                        fade_out($header-color, 1) 75%,
+                        rgba(0,0,0,0));
+
+    p {
+        font-size: 1.3em;
+        line-height: $baseline / 2;
+    }
+}

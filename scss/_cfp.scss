@@ -1,0 +1,11 @@
+// structure
+#cfp > .content > * {
+    @include shift(4 of 12);
+}
+
+// style
+#cfp {
+    padding-top: $baseline * 2;
+    padding-bottom: $baseline * 2;
+    background-color: $background-lightest;
+}

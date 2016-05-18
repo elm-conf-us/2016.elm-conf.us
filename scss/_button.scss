@@ -1,0 +1,12 @@
+// style
+a.button {
+    text-decoration: none;
+    padding: $baseline*0.5 $baseline * 2;
+    text-transform: uppercase;
+    border: 2px solid $button-color;
+    font-size: 0.9em;
+}
+
+a.button + a.button {
+    margin-left: $baseline;
+}

@@ -1,0 +1,57 @@
+// structure
+footer {
+    @include outer-container;
+
+    section {
+        @include span-columns(1 of 3);
+    }
+
+    label { @include span-columns(1 of 3); }
+    input { @include span-columns(2 of 3); }
+    input[type=submit] { @include shift(1); }
+}
+
+// style
+footer {
+    padding-top: $baseline * 2;
+    padding-bottom: $baseline * 2;
+
+    h3 {
+        margin-bottom: $baseline;
+        text-transform: uppercase;
+    }
+}
+
+#mailinglist {
+    fieldset {
+        padding-bottom: $baseline;
+    }
+
+    label {
+        text-align: left;
+        padding-top: $baseline / 2;
+        padding-bottom: $baseline / 2;
+    }
+
+    input {
+        background-color: #191C25;
+        border: 1px solid #33363D;
+        padding: $baseline / 2;
+        font-size: 1em;
+        color: $background-lightest;
+
+        &:focus, &[type=submit] {
+            border-color: $highlight-color;
+            color: blue;
+        }
+
+        &::placeholder {
+            color: red;
+        }
+
+        &[type=submit] {
+            color: $highlight-color;
+            text-transform: uppercase;
+        }
+    }
+}

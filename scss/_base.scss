@@ -1,0 +1,30 @@
+// structure
+
+// style
+body {
+    background: $background-color;
+    color: $text-color;
+
+    font-family: sans-serif;
+}
+
+a {
+    color: $highlight-color;
+}
+
+p {
+    line-height: $baseline;
+    margin-bottom: $baseline;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.content {
+    @include outer-container;
+}
+
+strong {
+    font-weight: bold;
+}

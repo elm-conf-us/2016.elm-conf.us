@@ -10,3 +10,8 @@ params:
   cfp_start: '{cfp start}'
   cfp_end: '{cfp end}'
   cfp_notify: '{cfp result notification date}'
+
+  # Contact
+  email: brian@brianthicks.com
+  twitter: elm-conf
+  twitter_hashtag: "#ElmConf"

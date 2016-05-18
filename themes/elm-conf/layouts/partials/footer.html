@@ -1,12 +1,16 @@
 <footer>
     <section id="mailinglist">
         <h3>Mailing List</h3>
+        <p>
+            Subscribe to our mailing list to be notified of sale and CFP dates,
+            as well as pre-conference training goodies.
+        </p>
         <form action="">
             <fieldset>
                 <label for="email">Email:</label>
                 <input name="email" type="email" value="" placeholder="you@domain.com"/>
             </fieldset>
-            <input name="" type="submit" value=""/>
+            <input name="" type="submit" value="Subscribe"/>
         </form>
     </section>
     <section id="info">
@@ -16,11 +20,9 @@
     </section>
     <section id="contact">
         <h3>Contact</h3>
-        <ul>
-            <li><a href="">Email</a></li>
-            <li><a href="">@elm-conf</a></li>
-            <li><a href="">#ElmConf</a></li>
-        </ul>
+        <p><a href="mailto:{{.Site.Params.email}}">Email</a></p>
+        <p><a href="https://twitter.com/{{.Site.Params.twitter}}">@{{.Site.Params.twitter}}</a></p>
+        <p><a href="https://twitter.com/search?q={{.Site.Params.twitter_hashtag}}">{{.Site.Params.twitter_hashtag}}</a></p>
     </section>
 </footer>
     </body>

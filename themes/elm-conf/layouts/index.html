@@ -1,56 +1,68 @@
 {{partial "header.html" .}}
 <section id="hero">
-    <h1><img alt="{{.Site.Title}}" src="logo-large.png"/></h1>
-    <p>{{.Site.Params.location}}</p>
-    <p>{{.Site.Params.date}}</p>
-    <a class="ghost" href="">Learn More</a>
+    <div class="content">
+        <h1><img alt="{{.Site.Title}}" src="logo-large.png"/></h1>
+        <p>{{.Site.Params.location}}</p>
+        <p>{{.Site.Params.date}}</p>
+        <a class="button" href="">Learn More</a>
+    </div>
 </section>
 <section id="about">
-    <h2>About</h2>
-    <img class="elm-logo" alt="" src=""/>
-    <p>
-        elm-conf is a one-day conference focusing on the Elm programming
-        language and its libraries, colocated with <a
-        href="https://www.thestrangeloop.com/">StrangeLoop</a>. It aims to be a
-        welcoming place for people worldwide to come together and learn about
-        what is happening with the language and community, and to celebrate
-        everything that makes Elm great.
-    </p>
-    <p>
-        We are currently accepting <a href="">talk proposals</a>. The proposal
-        period is open {{.Site.Params.cfp_start}} through
-        {{.Site.Params.cfp_end}}, and tickets will go on sale after speakers are
-        announced.
-    </p>
+    <div class="content">
+        <div class="elm-logo">Elm Logo</div>
+        <h2>About</h2>
+        <p>
+            elm-conf is a one-day conference focusing on the Elm programming
+            language and its libraries, colocated with <a
+                                                           href="https://www.thestrangeloop.com/">StrangeLoop</a>. It aims to be a
+            welcoming place for people worldwide to come together and learn about
+            what is happening with the language and community, and to celebrate
+            everything that makes Elm great.
+        </p>
+        <p>
+            We are currently accepting <a href="">talk proposals</a>. The proposal
+            period is open {{.Site.Params.cfp_start}} through
+            {{.Site.Params.cfp_end}}, and tickets will go on sale after speakers are
+            announced.
+        </p>
+    </div>
 </section>
 <section id="cfp">
-    <h2>Call for Speakers</h2>
-    <p>
-        If it's your first time proposing a talk, please don't feel intimidated.
-        We will have attendees of many different backgrounds and experience
-        levels, and the speakers are no exception. Elm is a young language and
-        this is its first conference, so everyone you meet will be an elm-conf
-        newbie!
-    </p>
+    <div class="content">
+        <h2>Call for Speakers</h2>
+        <p>
+            If it's your first time proposing a talk, please don't feel intimidated.
+            We will have attendees of many different backgrounds and experience
+            levels, and the speakers are no exception. Elm is a young language and
+            this is its first conference, so everyone you meet will be an elm-conf
+            newbie!
+        </p>
 
-    <p>
-        We will be contacting all submitters with the results of the process by
-        {{.Site.Params.cfp_notify}}. We won't leave you hanging!
-    </p>
-    <a class="ghost" href="">Learn More</a>
-    <a class="ghost" href="">Submit a Talk</a>
+        <p>
+            We will be contacting all submitters with the results of the process by
+            {{.Site.Params.cfp_notify}}. We won't leave you hanging!
+        </p>
+
+        <p>
+            <a class="button" href="">Learn More</a>
+            <a class="button" href="">Submit a Talk</a>
+        </p>
+    </div>
 </section>
-<section id="keynote">
-    <h2>Keynote Speaker: <strong>Evan Czaplicki - Creator of Elm</strong></h2>
-    <p>
-        Lorem ipsum dolor sit amet...
-    </p>
-</section>
+{{range where .Data.Pages "Type" "speaker"}}
+{{if .Params.keynote}}
+{{.Render "listItem"}}
+{{end}}
+{{end}}
 <section id="sponsors">
-    <h2>Sponsors</h2>
-    <ul>
-        <li><img alt="Asteris" src="asteris.png"/></li>
-    </ul>
+    <div class="content">
+        <h2>Sponsors</h2>
+        <ul>
+            {{range where .Data.Pages "Type" "sponsor"}}
+            <li><div class="logo-{{.Slug}} small">{{.Title}}</div></li>
+            {{end}}
+        </ul>
+    </div>
 </section>
 
 {{partial "footer.html" .}}

@@ -1,0 +1,36 @@
+// structure
+#sponsors {
+    background-color: $background-lightest;
+
+    h2, li {
+        @include span-columns(2);
+    }
+}
+
+// style
+#sponsors {
+    padding-top: $baseline * 2;
+    padding-bottom: $baseline * 2;
+
+    h2, li {
+        line-height: $baseline * 2;
+    }
+}
+
+// logos
+@mixin logo($slug, $width, $height) {
+    .logo-#{$slug} {
+        @include retina-image(/images/logos/$slug, $width $height);
+        width: $width;
+        height: $height;
+        text-indent: -9999px;
+    }
+    .logo-#{$slug}.small {
+        @include retina-image(/images/logos/$slug, $width/2 $height/2);
+        width: $width / 2;
+        height: $height / 2;
+        text-indent: -9999px;
+    }
+}
+
+@include logo(asteris, 350px, 82px);
