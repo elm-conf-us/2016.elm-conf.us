@@ -28,3 +28,10 @@ h2 {
 strong {
     font-weight: bold;
 }
+
+.solo {
+    text-align: center;
+    padding: $baseline*2 0;
+    font-size: 1.1em;
+    background-color: $background-lighter;
+}

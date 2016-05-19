@@ -9,3 +9,11 @@
     padding-bottom: $baseline * 2;
     background-color: $background-lightest;
 }
+
+#cfp:first-of-type {
+    background: linear-gradient(
+                    to bottom,
+                    fade_out($header-color, .2),
+                    fade_out($header-color, 1) 75%,
+                    rgba(0,0,0,0));
+}

@@ -1,0 +1,40 @@
+{{partial "header.html" .}}
+<section id="cfp">
+    <div class="content">
+        <h2>Call for Speakers</h2>
+        <p>
+            If it's your first time proposing a talk, please don't feel
+            intimidated. We will have attendees of many different backgrounds
+            and experience levels, and the speakers are no exception. Elm is a
+            young language and this is its first conference, so everyone you
+            meet will be an elm-conf newbie!
+        </p>
+
+        <p>
+            We will be contacting all submitters with the results of the process
+            by {cfp result notification date}. We won't leave you hanging!
+        </p>
+        <p>
+            <a class="button" href="">Submit a Talk</a>
+        </p>
+    </div>
+</section>
+<section class="solo">
+    <h2>Keynote Speaker</h2>
+</section>
+{{range where .Data.Pages "Type" "speaker"}}
+{{if .Params.keynote}}
+{{.Render "bigListItem"}}
+{{end}}
+{{end}}
+<!-- TODO: uncomment this block when we have speakers
+<section class="solo">
+    <h2>Speakers</h2>
+</section>
+-->
+{{range $i, $speaker := where .Data.Pages "Type" "speaker"}}
+{{if not $speaker.Params.keynote}}
+{{$speaker.Render "listItem"}}
+{{end}}
+{{end}}
+{{partial "footer.html" .}}
