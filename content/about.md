@@ -28,8 +28,9 @@ committee.
 Thank you to everyone who helped make elm-conf US a reality! Special thanks to
 [StrangeLoop](http://www.thestrangeloop.com) for hosting the conference, to our
 great [sponsors](/sponsor/) for making it affordable, and of course the talk
-selection committee ([Richard Feldman](https://twitter.com/rtfeldman) among
-others). It wouldn't have been possible without you!
+selection committee: [Jessica Kerr](https://twitter.com/jessitron) and
+[Richard Feldman](https://twitter.com/rtfeldman), among others. It wouldn't have
+been possible without you!
 
 ## Organizers:
 
