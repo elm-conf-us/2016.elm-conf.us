@@ -1,0 +1,8 @@
+{{partial "header.html"}}
+<section class="solo">
+    <h1>Sponsors</h1>
+</section>
+{{range where .Data.Pages "Type" "sponsor"}}
+{{.Render "listItem"}}
+{{end}}
+{{partial "footer.html"}}

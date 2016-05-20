@@ -1,0 +1,6 @@
+.elm-logo {
+    @include retina-image(/images/logos/elm, 250px 250px);
+    width: 250px;
+    height: 250px;
+    text-indent: -9999px;
+}

@@ -1,0 +1,22 @@
+{{partial "header.html" .}}
+<section id="about-hero">
+    <div class="content">
+        <div class="elm-logo">Elm Logo</div>
+        <h1>{{.Title}}</h1>
+        <p>
+            elm-conf is a one-day conference focusing on the Elm programming
+            language and its libraries, colocated with <a
+            href="https://www.thestrangeloop.com/">StrangeLoop</a>. It aims to
+            be a welcoming place for people worldwide to come together and learn
+            about what is happening with the language and community, and to
+            celebrate everything that makes Elm great.
+        </p>
+        <a class="button" href="/speaker/">Submit a Talk</a>
+    </div>
+</section>
+<section id="about-content">
+    <div class="content">
+        {{.Content}}
+    </div>
+</section>
+{{partial "footer.html" .}}

@@ -5,6 +5,7 @@
 @import "button";
 @import "base";
 @import "header";
+@import "logos";
 
 // main page
 @import "hero";
@@ -16,3 +17,7 @@
 
 // speakers page
 @import "speaker"; // also used on main page
+@import "sponsor";
+
+// about page
+@import "about-page";

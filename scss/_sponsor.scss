@@ -1,0 +1,21 @@
+// structure
+.sponsor {
+    @include row;
+
+    .logo {
+        @include span-columns(3);
+    }
+}
+
+// style
+.sponsor {
+    &:nth-child(odd) { background-color: $background-lightest; }
+    &:nth-child(even) { background-color: $background-lighter; }
+
+    padding-top: $baseline * 2;
+    padding-bottom: $baseline * 2;
+
+    .logo {
+        text-align: center;
+    }
+}
