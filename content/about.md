@@ -9,6 +9,13 @@ Elm-conf is a new conference as of 2016. We want to promote Elm and the
 ecosystem around it by bringing together the brightest minds in the community
 for a day of mixing ideas and making connections.
 
+Thank you to everyone who helped make elm-conf US a reality! Special thanks to
+[StrangeLoop](http://www.thestrangeloop.com) for hosting the conference, to our
+great [sponsors](/sponsor/) for making it affordable, and of course the talk
+selection committee: [Jessica Kerr](https://twitter.com/jessitron) and
+[Richard Feldman](https://twitter.com/rtfeldman). It wouldn't have been possible
+without you!
+
 ## General organizing principles:
 
 We assume you know about Elm already. Beginner talks, while great, are more
@@ -24,13 +31,6 @@ Community, not marketing. We don't give the attendee list to any sponsors.
 
 Blind auditions. Talks are selected anonymously by a diverse talk selection
 committee.
-
-Thank you to everyone who helped make elm-conf US a reality! Special thanks to
-[StrangeLoop](http://www.thestrangeloop.com) for hosting the conference, to our
-great [sponsors](/sponsor/) for making it affordable, and of course the talk
-selection committee: [Jessica Kerr](https://twitter.com/jessitron) and
-[Richard Feldman](https://twitter.com/rtfeldman). It wouldn't have been possible
-without you!
 
 ## Organizers:
 
