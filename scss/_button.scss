@@ -4,7 +4,7 @@ a.button {
     padding: $baseline*0.5 $baseline * 2;
     text-transform: uppercase;
     border: 2px solid $button-color;
-    font-size: 0.9em;
+    letter-spacing: 0.05em;
 
     display: inline-block;
 }
