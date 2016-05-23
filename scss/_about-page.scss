@@ -1,6 +1,6 @@
 #about-hero {
-    padding-top: $baseline * 2;
-    padding-bottom: $baseline * 2;
+    padding-top: $baseline * 4;
+    padding-bottom: $baseline * 4;
 
     background: linear-gradient(
                         to bottom,
@@ -11,6 +11,10 @@
     .elm-logo {
         float: left;
         margin-right: $baseline * 2;
+    }
+
+    h1 {
+        padding-top: $baseline * 0.75;
     }
 }
 
