@@ -5,6 +5,8 @@ a.button {
     text-transform: uppercase;
     border: 2px solid $button-color;
     font-size: 0.9em;
+
+    display: inline-block;
 }
 
 a.button + a.button {
