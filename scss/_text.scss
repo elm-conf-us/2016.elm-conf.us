@@ -15,6 +15,10 @@ a {
 p {
     margin-bottom: $baseline;
     letter-spacing: 1px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 h2 {

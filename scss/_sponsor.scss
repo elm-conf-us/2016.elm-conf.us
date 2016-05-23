@@ -5,17 +5,23 @@
     .logo {
         @include span-columns(3);
     }
+
+    .about-sponsor {
+        @include span-columns(9);
+    }
 }
 
 // style
 .sponsor {
-    &:nth-child(odd) { background-color: $background-lightest; }
-    &:nth-child(even) { background-color: $background-lighter; }
+    &:nth-child(odd) { background-color: $background-lighter; }
+    &:nth-child(even) { background-color: $background-lightest; }
 
-    padding-top: $baseline * 2;
-    padding-bottom: $baseline * 2;
+    padding-top: $baseline * 3;
+    padding-bottom: $baseline * 3;
 
     .logo {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: $baseline * 1.5;
     }
 }
