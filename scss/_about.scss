@@ -6,7 +6,7 @@
 
     .elm-logo {
         float: right;
-        box-shadow: 0 0 $baseline/2 $baseline/2 fade_out($background-color, .5);
+        box-shadow: 0 0 $baseline*2 0 fade_out($background-color, .3);
         margin-left: $baseline;
     }
 }
