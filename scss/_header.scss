@@ -22,9 +22,9 @@ header {
 
 // style
 header {
-    background-color: $header-color;
-    height: $baseline * 2;
-    line-height: $baseline * 2;
+    background-color: $background-lighter;
+    height: $baseline * 3;
+    line-height: $baseline * 3;
 
     color: $text-color;
     a {
