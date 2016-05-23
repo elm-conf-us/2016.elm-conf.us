@@ -14,4 +14,8 @@ body {
     padding: $baseline*2 0;
     font-size: 1.1em;
     background-color: $background-lighter;
+
+    header + & {
+        background-color: $background-lightest;
+    }
 }
