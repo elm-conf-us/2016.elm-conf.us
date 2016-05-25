@@ -1,26 +1,20 @@
 #about-hero {
-    padding-top: $baseline * 4;
-    padding-bottom: $baseline * 4;
+    padding-top: $baseline * 7;
+    padding-bottom: $baseline * 7;
 
-    background: linear-gradient(
-                        to bottom,
-                        fade_out($header-color, .2),
-                        fade_out($header-color, 1) 75%,
-                        rgba(0,0,0,0));
+    background-image: url("/images/backgrounds/about.jpg");
+    background-position: center;
+    background-size: cover;
 
     .elm-logo {
         float: left;
         margin-right: $baseline * 2;
     }
-
-    h1 {
-        padding-top: $baseline * 0.75;
-    }
 }
 
 #about-content {
-    padding-top: $baseline * 2;
-    padding-bottom: $baseline * 2;
+    padding-top: $baseline * 7;
+    padding-bottom: $baseline * 7;
     background-color: $background-lighter;
 
     ul {
@@ -29,6 +23,11 @@
         padding-bottom: $baseline;
         li {
             line-height: $baseline;
+            padding-bottom: $baseline / 2;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
         }
     }
 }
