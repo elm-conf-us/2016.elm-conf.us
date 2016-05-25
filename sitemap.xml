@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.elm-conf.us/</loc>
+    <lastmod>2016-05-21T14:05:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/about/</loc>
+    <lastmod>2016-05-21T14:05:34-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/speaker/evan-czaplicki/</loc>
+    <lastmod>2016-05-18T07:48:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.elm-conf.us/sponsor/asteris/</loc>
+    <lastmod>2016-05-17T16:15:11-05:00</lastmod>
+  </url>
+  
+</urlset>
