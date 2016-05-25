@@ -5,12 +5,14 @@
 
 // style
 #cfp {
-    padding-top: $baseline * 2;
-    padding-bottom: $baseline * 2;
+    padding-top: $baseline * 15;
+    padding-bottom: $baseline * 15;
     background-color: $background-lightest;
+    background-image: url("/images/backgrounds/cfp.jpg");
+    background-size: cover;
 }
 
-#cfp:first-of-type {
+#cfp-hero {
     background: linear-gradient(
                     to bottom,
                     fade_out($header-color, .2),
