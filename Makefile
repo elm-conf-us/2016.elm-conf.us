@@ -1,4 +1,4 @@
-site_deps=$(shell find themes content data layouts static themes)
+site_deps=$(shell find themes content static themes)
 scss_deps=$(shell find scss)
 
 public: ${site_deps} themes/elm-conf/static/css/main.css
