@@ -1,3 +1,17 @@
+.logo-small {
+    @include retina-image(/images/logos/logo-light-small, 180px 40px);
+    width: 180px;
+    height: 40px;
+    text-indent: -9999px;
+}
+
+.logo {
+    @include retina-image(/images/logos/logo-light, 539px 120px);
+    width: 539px;
+    height: 120px;
+    text-indent: -9999px;
+}
+
 .elm-logo {
     @include retina-image(/images/logos/elm, 250px 250px);
     width: 250px;
