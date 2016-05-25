@@ -9,16 +9,16 @@
 
 // style
 #sponsors {
-    padding-top: $baseline * 2;
-    padding-bottom: $baseline * 2;
+    padding-top: $baseline * 3;
+    padding-bottom: $baseline * 3;
 
     h2, li {
-        line-height: $baseline * 2;
+        line-height: $baseline * 3;
     }
 }
 
 // logos
-@mixin logo($slug, $width, $height) {
+@mixin logo($slug, $width, $height, $balance) {
     .logo-#{$slug} {
         @include retina-image(/images/logos/$slug, $width $height);
         width: $width;
@@ -31,6 +31,9 @@
         height: $height / 2;
         text-indent: -9999px;
     }
+    #sponsors li > .logo-#{$slug}.small {
+        margin-top: $balance;
+    }
 }
 
-@include logo(asteris, 350px, 82px);
+@include logo(asteris, 350px, 82px, 9px);
