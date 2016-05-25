@@ -3,7 +3,19 @@
     @include row;
 }
 
+#cfp-hero > .content > * {
+    @include shift(4 of 12);
+}
+
 // style
+#cfp-hero {
+    padding-top: $baseline * 7;
+    padding-bottom: $baseline * 7;
+    background-color: $background-lightest;
+    background-image: url("/images/backgrounds/speakers.jpg");
+    background-size: cover;
+}
+
 .speaker {
     &:nth-child(odd) { background-color: $background-lighter; }
     &:nth-child(even) { background-color: $background-lightest; }

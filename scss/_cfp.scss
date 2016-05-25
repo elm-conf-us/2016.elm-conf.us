@@ -11,11 +11,3 @@
     background-image: url("/images/backgrounds/cfp.jpg");
     background-size: cover;
 }
-
-#cfp-hero {
-    background: linear-gradient(
-                    to bottom,
-                    fade_out($header-color, .2),
-                    fade_out($header-color, 1) 75%,
-                    rgba(0,0,0,0));
-}
