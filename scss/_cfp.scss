@@ -1,13 +1,40 @@
 // structure
 #cfp > .content > * {
-    @include shift(4 of 12);
+	@include media($large-screen) {
+		@include shift(4 of 12);
+	}
 }
 
 // style
 #cfp {
-    padding-top: $baseline * 15;
-    padding-bottom: $baseline * 15;
-    background-color: $background-lightest;
-    background-image: url("/images/backgrounds/cfp.jpg");
-    background-size: cover;
+	align-items: center;
+	background-color: $background-lightest;
+	background-image: url("/images/backgrounds/cfp.jpg");
+	background-position: right;
+	background-size: none;
+	display: flex;
+	justify-content: center;
+	min-height: 25em;
+	padding: 2em;
+
+	@include media($large-screen) {
+		background-size: cover;
+		background-position: left;
+		justify-content: flex-end;
+		padding-bottom: $baseline * 15;
+		padding-top: $baseline * 15;
+	}
+
+	.content {
+		text-align: left;
+
+		a.button {
+			margin-bottom: $baseline;
+			display: block;
+
+			@include media($large-screen) {
+				display: inline-block;
+			}
+		}
+	}
 }

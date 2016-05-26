@@ -9,3 +9,12 @@ $text-color: #FCFCFC;
 $highlight-color: #81CF47;
 $button-color: $highlight-color;
 $header-color: #65B6CC;
+
+// media breaks
+$large-screen: 50em !default;
+
+// debug
+//$visual-grid: true;
+//$visual-grid-color: lighten(#FFF0E8, 3%);
+//$visual-grid-index: front;
+//$visual-grid-opacity: 0.1;
