@@ -3,7 +3,7 @@ set -euo pipefail
 
 pagesCheckout=$(mktemp -d)
 
-git clone --branch=gh-pages git@github.com:elm-conf-us/2016.elm-conf.us.git $pagesCheckout
+git clone --branch=gh-pages $(git remote get-url origin) $pagesCheckout
 
 message="publish from $(git rev-parse HEAD)"
 rsync --recursive --delete --exclude='.git' public/ $pagesCheckout/
