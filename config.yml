@@ -10,6 +10,7 @@ params:
   cfp_start: 'June 1, 2016'
   cfp_end: 'June 30, 2016'
   cfp_notify: 'July 8, 2016'
+  cfp_link: 'https://www.papercall.io/elm-conf-us-2016'
 
   # Contact
   email: elm-conf@thestrangeloop.com
