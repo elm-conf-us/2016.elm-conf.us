@@ -12,6 +12,9 @@ params:
   cfp_notify: 'July 8, 2016'
   cfp_link: 'https://www.papercall.io/elm-conf-us-2016'
 
+  # Ticketing Info
+  ticket_link: 'http://thestrangeloop.com/register.html'
+
   # Contact
   email: elm-conf@thestrangeloop.com
   twitter: ElmConf
