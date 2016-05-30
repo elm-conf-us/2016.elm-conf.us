@@ -1,27 +1,29 @@
 // structure
-.sponsor {
-    @include row;
+@include media($large-screen) {
+	.sponsor {
+		@include row;
 
-    .logo {
-        @include span-columns(3);
-    }
+		.logo {
+			@include span-columns(3);
+		}
 
-    .about-sponsor {
-        @include span-columns(9);
-    }
+		.about-sponsor {
+			@include span-columns(9);
+		}
+	}
 }
 
 // style
 .sponsor {
-    &:nth-child(odd) { background-color: $background-lighter; }
-    &:nth-child(even) { background-color: $background-lightest; }
+	&:nth-child(odd) { background-color: $background-lighter; }
+	&:nth-child(even) { background-color: $background-lightest; }
 
-    padding-top: $baseline * 3;
-    padding-bottom: $baseline * 3;
+	padding: $baseline * 3 2em;
 
-    .logo {
-        display: flex;
-        justify-content: center;
-        padding-top: $baseline * 1.5;
-    }
+	.logo {
+		display: flex;
+		justify-content: center;
+		padding-top: $baseline * 1.5;
+		padding-bottom: $baseline * 1.5;
+	}
 }
