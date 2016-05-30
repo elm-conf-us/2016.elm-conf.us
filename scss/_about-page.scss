@@ -1,33 +1,54 @@
 #about-hero {
-    padding-top: $baseline * 7;
-    padding-bottom: $baseline * 7;
+	padding: $baseline * 3 2em;
 
-    background-image: url("/images/backgrounds/about.jpg");
-    background-position: center;
-    background-size: cover;
+	@include media($large-screen) {
+		padding: $baseline * 7 2em;
+	}
 
-    .elm-logo {
-        float: left;
-        margin-right: $baseline * 2;
-    }
+	background-image: url("/images/backgrounds/about.jpg");
+	background-position: center;
+	background-size: cover;
+
+	.elm-logo {
+		float: left;
+
+		display: none;
+		@include media($large-screen) {
+			display: inline;
+		}
+
+		margin-right: $baseline * 2;
+	}
+
+	a.button {
+		margin-bottom: $baseline;
+
+		display: block;
+		@include media($large-screen) {
+			display: inline-block;
+		}
+	}
 }
 
 #about-content {
-    padding-top: $baseline * 7;
-    padding-bottom: $baseline * 7;
-    background-color: $background-lighter;
+	padding: $baseline * 3 2em;
+	@include media($large-screen) {
+		padding: $baseline * 7 2em;
+	}
 
-    ul {
-        padding-left: $baseline;
-        list-style-type: disc;
-        padding-bottom: $baseline;
-        li {
-            line-height: $baseline;
-            padding-bottom: $baseline / 2;
+	background-color: $background-lighter;
 
-            &:last-child {
-                padding-bottom: 0;
-            }
-        }
-    }
+	ul {
+		padding-left: $baseline;
+		list-style-type: disc;
+		padding-bottom: $baseline;
+		li {
+			line-height: $baseline;
+			padding-bottom: $baseline / 2;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
 }
