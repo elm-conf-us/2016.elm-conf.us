@@ -233,21 +233,25 @@ header {
 #keynote {
   background-color: #5C6378; }
 
-#sponsors {
-  background-color: #7D8497; }
+@media screen and (min-width: 50em) {
   #sponsors h2, #sponsors li {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%; }
     #sponsors h2:last-child, #sponsors li:last-child {
-      margin-right: 0; }
-
+      margin-right: 0; } }
 #sponsors {
+  background-color: #7D8497;
   padding-top: 60px;
   padding-bottom: 60px; }
   #sponsors h2, #sponsors li {
-    line-height: 60px; }
+    line-height: 60px;
+    justify-content: center;
+    display: flex; }
+    @media screen and (min-width: 50em) {
+      #sponsors h2, #sponsors li {
+        display: inline; } }
 
 .logo-asteris {
   background-image: url("/images/logos/asteris.png");
