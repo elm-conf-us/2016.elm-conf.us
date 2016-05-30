@@ -73,40 +73,66 @@ header > nav {
     clear: both;
     content: "";
     display: table; }
-  header > nav .brand {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
-    header > nav .brand:last-child {
-      margin-right: 0; }
+  @media screen and (min-width: 50em) {
+    header > nav .brand {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      header > nav .brand:last-child {
+        margin-right: 0; } }
   header > nav ul {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 100%; }
     header > nav ul:last-child {
       margin-right: 0; }
     header > nav ul li {
       float: left;
       display: block;
-      margin-right: 10.1484%;
-      width: 26.56773%; }
+      margin-right: 2.35765%;
+      width: 31.76157%; }
       header > nav ul li:last-child {
         margin-right: 0; }
+  @media screen and (min-width: 50em) {
+    header > nav ul {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      header > nav ul:last-child {
+        margin-right: 0; }
+      header > nav ul li {
+        float: left;
+        display: block;
+        margin-right: 10.1484%;
+        width: 26.56773%; }
+        header > nav ul li:last-child {
+          margin-right: 0; } }
 
 header {
   background-color: #5C6378;
-  height: 60px;
   line-height: 60px;
   color: #FCFCFC; }
+  @media screen and (min-width: 50em) {
+    header {
+      height: 60px; } }
   header a {
     color: #FCFCFC;
     text-decoration: none; }
   header > nav > ul > li {
     text-align: center; }
   header .brand {
-    padding-top: 7px; }
+    padding-top: 7px;
+    text-align: center; }
+    header .brand .conf-logo-small {
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+    @media screen and (min-width: 50em) {
+      header .brand .conf-logo-small {
+        width: 180px; } }
 
 .conf-logo-small {
   background-image: url("/images/logos/logo-light-small.png");
