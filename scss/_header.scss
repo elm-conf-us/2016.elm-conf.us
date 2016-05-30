@@ -1,42 +1,71 @@
 // structure
 header {
-    > nav {
-        @include outer-container;
+	> nav {
+		@include outer-container;
 
-        .brand {
-            @include span-columns(9);
-        }
+		.brand {
+			@include media($large-screen) {
+				@include span-columns(8);
+			}
+		}
 
-        ul {
-            @include span-columns(3);
 
-            li {
-                @include span-columns(1 of 3);
-            }
-        }
-    }
+		ul {
+			@include span-columns(12);
+
+			li {
+				@include span-columns(4 of 12);
+			}
+		}
+
+		@include media($large-screen) {
+			ul {
+				@include span-columns(4);
+
+				li {
+					@include span-columns(1 of 3);
+				}
+			}
+		}
+	}
 
 }
 
 // style
 header {
-    background-color: $background-lighter;
-    height: $baseline * 3;
-    line-height: $baseline * 3;
+	background-color: $background-lighter;
+	line-height: $baseline * 3;
 
-    color: $text-color;
-    a {
-        color: $text-color;
-        text-decoration: none;
-    }
+	@include media($large-screen) {
+		height: $baseline * 3;
+	}
 
-    > nav {
-        > ul > li {
-            text-align: center; 
-        }
-    }
+	color: $text-color;
+	a {
+		color: $text-color;
+		text-decoration: none;
+	}
 
-    .brand {
-        padding-top: 7px;
-    }
+	> nav {
+		> ul > li {
+			text-align: center;
+		}
+	}
+
+	.brand {
+		padding-top: 7px;
+		text-align: center;
+
+		.conf-logo-small {
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		@include media($large-screen) {
+			.conf-logo-small {
+				width: 180px;
+			}
+		}
+	}
 }
