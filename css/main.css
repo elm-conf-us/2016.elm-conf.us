@@ -353,15 +353,26 @@ footer {
     content: "";
     display: table; }
 
-#cfp-hero > .content > * {
-  margin-left: 34.11922%; }
-
+@media screen and (min-width: 50em) {
+  #cfp-hero > .content > * {
+    margin-left: 34.11922%; } }
 #cfp-hero {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding: 60px 2em;
   background-color: #7D8497;
-  background-image: url("/images/backgrounds/speakers.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-image: none; }
+  @media screen and (min-width: 50em) {
+    #cfp-hero {
+      padding: 140px 2em; } }
+  @media screen and (min-width: 50em) {
+    #cfp-hero {
+      background-image: url("/images/backgrounds/speakers.jpg"); } }
+  #cfp-hero a.button {
+    margin-bottom: 20px;
+    display: block; }
+    @media screen and (min-width: 50em) {
+      #cfp-hero a.button {
+        display: inline-block; } }
 
 .speaker {
   padding: 80px 2em; }
@@ -393,30 +404,29 @@ footer {
     margin-right: auto;
     margin-bottom: 20px; }
 
+@media screen and (min-width: 50em) {
+  .sponsor {
+    display: block; }
+    .sponsor::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .sponsor .logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .sponsor .logo:last-child {
+        margin-right: 0; }
+    .sponsor .about-sponsor {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .sponsor .about-sponsor:last-child {
+        margin-right: 0; } }
 .sponsor {
-  display: block; }
-  .sponsor::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .sponsor .logo {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .sponsor .logo:last-child {
-      margin-right: 0; }
-  .sponsor .about-sponsor {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
-    .sponsor .about-sponsor:last-child {
-      margin-right: 0; }
-
-.sponsor {
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding: 60px 2em; }
   .sponsor:nth-child(odd) {
     background-color: #5C6378; }
   .sponsor:nth-child(even) {
@@ -424,7 +434,8 @@ footer {
   .sponsor .logo {
     display: flex;
     justify-content: center;
-    padding-top: 30px; }
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
 #about-hero {
   padding: 60px 2em;
