@@ -1,39 +1,48 @@
 // structure
-#sponsors {
-    background-color: $background-lightest;
-
-    h2, li {
-        @include span-columns(2);
-    }
+@include media($large-screen) {
+	#sponsors {
+		h2, li {
+			@include span-columns(2);
+		}
+	}
 }
 
 // style
 #sponsors {
-    padding-top: $baseline * 3;
-    padding-bottom: $baseline * 3;
+	background-color: $background-lightest;
 
-    h2, li {
-        line-height: $baseline * 3;
-    }
+	padding-top: $baseline * 3;
+	padding-bottom: $baseline * 3;
+
+
+	h2, li {
+		line-height: $baseline * 3;
+		justify-content: center;
+
+		display: flex;
+		@include media($large-screen) {
+			display: inline;
+		}
+	}
 }
 
 // logos
 @mixin logo($slug, $width, $height, $balance) {
-    .logo-#{$slug} {
-        @include retina-image(/images/logos/$slug, $width $height);
-        width: $width;
-        height: $height;
-        text-indent: -9999px;
-    }
-    .logo-#{$slug}.small {
-        @include retina-image(/images/logos/$slug, $width/2 $height/2);
-        width: $width / 2;
-        height: $height / 2;
-        text-indent: -9999px;
-    }
-    #sponsors li > .logo-#{$slug}.small {
-        margin-top: $balance;
-    }
+	.logo-#{$slug} {
+		@include retina-image(/images/logos/$slug, $width $height);
+		width: $width;
+		height: $height;
+		text-indent: -9999px;
+	}
+	.logo-#{$slug}.small {
+		@include retina-image(/images/logos/$slug, $width/2 $height/2);
+		width: $width / 2;
+		height: $height / 2;
+		text-indent: -9999px;
+	}
+	#sponsors li > .logo-#{$slug}.small {
+		margin-top: $balance;
+	}
 }
 
 @include logo(asteris, 350px, 82px, 9px);
