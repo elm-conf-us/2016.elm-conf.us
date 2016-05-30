@@ -427,19 +427,33 @@ footer {
     padding-top: 30px; }
 
 #about-hero {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding: 60px 2em;
   background-image: url("/images/backgrounds/about.jpg");
   background-position: center;
   background-size: cover; }
+  @media screen and (min-width: 50em) {
+    #about-hero {
+      padding: 140px 2em; } }
   #about-hero .elm-logo {
     float: left;
+    display: none;
     margin-right: 40px; }
+    @media screen and (min-width: 50em) {
+      #about-hero .elm-logo {
+        display: inline; } }
+  #about-hero a.button {
+    margin-bottom: 20px;
+    display: block; }
+    @media screen and (min-width: 50em) {
+      #about-hero a.button {
+        display: inline-block; } }
 
 #about-content {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding: 60px 2em;
   background-color: #5C6378; }
+  @media screen and (min-width: 50em) {
+    #about-content {
+      padding: 140px 2em; } }
   #about-content ul {
     padding-left: 20px;
     list-style-type: disc;
