@@ -1,51 +1,57 @@
 // structure
 .speaker {
-    @include row;
+	@include row;
 }
 
 #cfp-hero > .content > * {
-    @include shift(4 of 12);
+	@include shift(4 of 12);
 }
 
 // style
 #cfp-hero {
-    padding-top: $baseline * 7;
-    padding-bottom: $baseline * 7;
-    background-color: $background-lightest;
-    background-image: url("/images/backgrounds/speakers.jpg");
-    background-size: cover;
+	padding-top: $baseline * 7;
+	padding-bottom: $baseline * 7;
+	background-color: $background-lightest;
+	background-image: url("/images/backgrounds/speakers.jpg");
+	background-size: cover;
 }
 
 .speaker {
-    &:nth-child(odd) { background-color: $background-lighter; }
-    &:nth-child(even) { background-color: $background-lightest; }
+	&:nth-child(odd) { background-color: $background-lighter; }
+	&:nth-child(even) { background-color: $background-lightest; }
 
-    padding-top: $baseline * 4;
-    padding-bottom: $baseline * 4;
+	padding: $baseline * 4 2em;
 
-    img {
-        float: left;
-        max-width: 300px;
-        max-height: 300px;
-        border-radius: 150px;
-        margin-right: $baseline * 2;
-    }
+	img {
+		max-width: 300px;
+		max-height: 300px;
+		border-radius: 150px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: $baseline * 2;
+		display: flex;
 
-    h2 {
-        text-transform: none;
-    }
+		@include media($large-screen) {
+			float: left;
+			margin-right: $baseline * 2;
+		}
+	}
 
-    &.big {
-        img {
-            display: block;
-            float: none;
-            max-width: 300px;
-            max-height: 300px;
-            border-radius: 150px;
+	h2 {
+		text-transform: none;
+	}
 
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: $baseline;
-        }
-    }
+	&.big {
+		img {
+			display: block;
+			float: none;
+			max-width: 300px;
+			max-height: 300px;
+			border-radius: 150px;
+
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: $baseline;
+		}
+	}
 }
