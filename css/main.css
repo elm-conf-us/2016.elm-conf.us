@@ -360,18 +360,23 @@ footer {
   background-size: cover; }
 
 .speaker {
-  padding-top: 80px;
-  padding-bottom: 80px; }
+  padding: 80px 2em; }
   .speaker:nth-child(odd) {
     background-color: #5C6378; }
   .speaker:nth-child(even) {
     background-color: #7D8497; }
   .speaker img {
-    float: left;
     max-width: 300px;
     max-height: 300px;
     border-radius: 150px;
-    margin-right: 40px; }
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex; }
+    @media screen and (min-width: 50em) {
+      .speaker img {
+        float: left;
+        margin-right: 40px; } }
   .speaker h2 {
     text-transform: none; }
   .speaker.big img {
