@@ -3,17 +3,35 @@
 	@include row;
 }
 
-#cfp-hero > .content > * {
-	@include shift(4 of 12);
+@include media($large-screen) {
+	#cfp-hero > .content > * {
+		@include shift(4 of 12);
+	}
 }
 
 // style
 #cfp-hero {
-	padding-top: $baseline * 7;
-	padding-bottom: $baseline * 7;
+	padding: $baseline * 3 2em;
+	@include media($large-screen) {
+		padding: $baseline * 7 2em;
+	}
+
 	background-color: $background-lightest;
-	background-image: url("/images/backgrounds/speakers.jpg");
 	background-size: cover;
+
+	background-image: none;
+	@include media($large-screen) {
+		background-image: url("/images/backgrounds/speakers.jpg");
+	}
+
+	a.button {
+		margin-bottom: $baseline;
+		display: block;
+
+		@include media($large-screen) {
+			display: inline-block;
+		}
+	}
 }
 
 .speaker {
