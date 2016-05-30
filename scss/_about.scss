@@ -1,12 +1,16 @@
 // style
 #about {
-    background-color: $background-lighter;
-    padding-top: $baseline * 5;
-    padding-bottom: $baseline * 5;
+	background-color: $background-lighter;
+	padding: $baseline * 5 2em;
 
-    .elm-logo {
-        float: right;
-        box-shadow: 0 0 $baseline*2 0 fade_out($background-color, .3);
-        margin-left: $baseline * 2;
-    }
+	.elm-logo {
+		float: right;
+		box-shadow: 0 0 $baseline*2 0 fade_out($background-color, .3);
+		margin-left: $baseline * 2;
+
+		display: none;
+		@include media($large-screen) {
+			display: inline;
+		}
+	}
 }
