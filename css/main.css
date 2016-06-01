@@ -35,9 +35,7 @@ body {
   text-align: center;
   padding: 60px 0;
   font-size: 1.1em;
-  background-color: #5C6378; }
-  header + .solo {
-    background-color: #7D8497; }
+  background-color: #7D8497; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -246,7 +244,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px; }
   #sponsors h2, #sponsors li {
-    line-height: 60px;
+    line-height: 90px;
     justify-content: center;
     display: flex; }
     @media screen and (min-width: 50em) {
@@ -274,7 +272,30 @@ header {
       background-size: 175px 41px; } }
 
 #sponsors li > .logo-asteris.small {
-  margin-top: 9px; }
+  margin-top: 25px; }
+
+.logo-oasis-digital {
+  background-image: url("/images/logos/oasis-digital.png");
+  width: 350px;
+  height: 175px;
+  text-indent: -9999px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .logo-oasis-digital {
+      background-image: url("/images/logos/oasis-digital_2x.png");
+      background-size: 350px 175px; } }
+
+.logo-oasis-digital.small {
+  background-image: url("/images/logos/oasis-digital.png");
+  width: 175px;
+  height: 87.5px;
+  text-indent: -9999px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .logo-oasis-digital.small {
+      background-image: url("/images/logos/oasis-digital_2x.png");
+      background-size: 175px 87.5px; } }
+
+#sponsors li > .logo-oasis-digital.small {
+  margin-top: 0px; }
 
 @media screen and (min-width: 50em) {
   footer {
@@ -373,6 +394,33 @@ footer {
     @media screen and (min-width: 50em) {
       #cfp-hero a.button {
         display: inline-block; } }
+
+#speaker-extra {
+  padding: 60px 2em;
+  background: #5C6378; }
+  #speaker-extra div.benefit {
+    padding-bottom: 40px; }
+    @media screen and (min-width: 50em) {
+      #speaker-extra div.benefit {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        #speaker-extra div.benefit:last-child {
+          margin-right: 0; }
+        #speaker-extra div.benefit:nth-child(2n) {
+          margin-right: 0; } }
+    #speaker-extra div.benefit:last-child {
+      padding-bottom: 0; }
+  #speaker-extra ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    padding-bottom: 20px; }
+    #speaker-extra ul li {
+      padding-bottom: 10px;
+      font-size: 1.0em; }
+      #speaker-extra ul li:last-child {
+        padding-bottom: 0; }
 
 .speaker {
   padding: 80px 2em; }
