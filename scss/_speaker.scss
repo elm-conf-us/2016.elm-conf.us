@@ -34,6 +34,39 @@
 	}
 }
 
+#speaker-extra {
+  padding: $baseline * 3 2em;
+  background: $background-lighter;
+
+  div.benefit {
+    @include media($large-screen) {
+      @include span-columns(6 of 12);
+      &:nth-child(2n) {
+          @include omega();
+      }
+    }
+
+    padding-bottom: $baseline * 2;
+    &:last-child {
+        padding-bottom: 0;
+    }
+  }
+
+	ul {
+		padding-left: $baseline;
+		list-style-type: disc;
+		padding-bottom: $baseline;
+		li {
+			padding-bottom: $baseline / 2;
+      font-size: 1.0em;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
 .speaker {
 	&:nth-child(odd) { background-color: $background-lighter; }
 	&:nth-child(even) { background-color: $background-lightest; }
