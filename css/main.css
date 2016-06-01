@@ -244,7 +244,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px; }
   #sponsors h2, #sponsors li {
-    line-height: 90px;
+    line-height: 60px;
     justify-content: center;
     display: flex; }
     @media screen and (min-width: 50em) {
@@ -252,50 +252,7 @@ header {
         display: inline; } }
 
 .logo-asteris {
-  background-image: url("/images/logos/asteris.png");
-  width: 350px;
-  height: 82px;
-  text-indent: -9999px; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .logo-asteris {
-      background-image: url("/images/logos/asteris_2x.png");
-      background-size: 350px 82px; } }
-
-.logo-asteris.small {
-  background-image: url("/images/logos/asteris.png");
-  width: 175px;
-  height: 41px;
-  text-indent: -9999px; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .logo-asteris.small {
-      background-image: url("/images/logos/asteris_2x.png");
-      background-size: 175px 41px; } }
-
-#sponsors li > .logo-asteris.small {
-  margin-top: 25px; }
-
-.logo-oasis-digital {
-  background-image: url("/images/logos/oasis-digital.png");
-  width: 350px;
-  height: 175px;
-  text-indent: -9999px; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .logo-oasis-digital {
-      background-image: url("/images/logos/oasis-digital_2x.png");
-      background-size: 350px 175px; } }
-
-.logo-oasis-digital.small {
-  background-image: url("/images/logos/oasis-digital.png");
-  width: 175px;
-  height: 87.5px;
-  text-indent: -9999px; }
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-    .logo-oasis-digital.small {
-      background-image: url("/images/logos/oasis-digital_2x.png");
-      background-size: 175px 87.5px; } }
-
-#sponsors li > .logo-oasis-digital.small {
-  margin-top: 0px; }
+  padding-top: 10px; }
 
 @media screen and (min-width: 50em) {
   footer {
