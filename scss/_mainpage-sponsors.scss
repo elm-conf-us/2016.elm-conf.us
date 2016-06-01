@@ -16,8 +16,8 @@
 
 
 	h2, li {
-		  line-height: 90px;
-		justify-content: center;
+    line-height: $baseline * 3;
+    justify-content: center;
 
 		display: flex;
 		@include media($large-screen) {
@@ -26,24 +26,7 @@
 	}
 }
 
-// logos
-@mixin logo($slug, $width, $height, $balance) {
-	.logo-#{$slug} {
-		@include retina-image(/images/logos/$slug, $width $height);
-		width: $width;
-		height: $height;
-		text-indent: -9999px;
-	}
-	.logo-#{$slug}.small {
-		@include retina-image(/images/logos/$slug, $width/2 $height/2);
-		width: $width / 2;
-		height: $height / 2;
-		text-indent: -9999px;
-	}
-	#sponsors li > .logo-#{$slug}.small {
-		margin-top: $balance;
-	}
+// height adjustments
+.logo-asteris {
+    padding-top: 10px;
 }
-
-@include logo(asteris, 350px, 82px, 25px);
-@include logo(oasis-digital, 350px, 175px, 0px);
