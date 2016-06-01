@@ -16,7 +16,7 @@
 
 
 	h2, li {
-		line-height: $baseline * 3;
+		  line-height: 90px;
 		justify-content: center;
 
 		display: flex;
@@ -45,4 +45,5 @@
 	}
 }
 
-@include logo(asteris, 350px, 82px, 9px);
+@include logo(asteris, 350px, 82px, 25px);
+@include logo(oasis-digital, 350px, 175px, 0px);
