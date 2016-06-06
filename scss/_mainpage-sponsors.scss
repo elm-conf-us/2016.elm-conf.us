@@ -24,6 +24,11 @@
 			display: inline;
 		}
 	}
+  li {
+    @include media($large-screen) {
+      margin-right: $baseline * 2;
+    }
+  }
 }
 
 @include media($large-screen) {
