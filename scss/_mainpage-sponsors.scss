@@ -1,9 +1,12 @@
 // structure
 @include media($large-screen) {
 	#sponsors {
-		h2, li {
+		h2 {
 			@include span-columns(2);
 		}
+    ul {
+      @include span-columns(10);
+    }
 	}
 }
 
@@ -14,30 +17,36 @@
 	padding-top: $baseline * 3;
 	padding-bottom: $baseline * 3;
 
+  ul {
+      text-align: center;
 
-	h2, li {
-    line-height: $baseline * 3;
-    justify-content: center;
+      // vertical centering
+      @include media($large-screen) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
 
-		display: flex;
-		@include media($large-screen) {
-			display: inline;
-		}
-	}
-  li {
-    @include media($large-screen) {
-      margin-right: $baseline * 2;
-    }
+      li {
+          // mobile margins
+          margin-bottom: $baseline * 2;
+          &:last-child {
+              margin-bottom: 0;
+          }
+
+          @include media($large-screen) {
+              margin-right: $baseline * 2;
+              margin-bottom: 0;
+		      }
+
+      }
   }
-}
 
-@include media($large-screen) {
-    // height adjustments
-    .logo-asteris {
-        padding-top: 13px;
-    }
-
-    .logo-noredink {
-        padding-top: 16px;
-    }
+	h2 {
+      line-height: 136px;
+      text-align: center;
+      @include media($large-screen) {
+          text-align: left;
+      }
+	}
 }
