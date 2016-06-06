@@ -6,8 +6,40 @@
     <description>Recent content on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jun 2016 14:16:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2016 14:56:48 -0500</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NoRedInk</title>
+      <link>https://www.elm-conf.us/sponsor/noredink/</link>
+      <pubDate>Mon, 06 Jun 2016 14:56:48 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsor/noredink/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.noredink.com/jobs&#34;&gt;NoRedInk&lt;/a&gt; has the largest commercial Elm
+codebase in the world, and has
+&lt;a href=&#34;http://tech.noredink.com/post/136615783598/welcome-evan&#34;&gt;hired Elm creator Evan Czaplicki&lt;/a&gt;
+to develop the language full-time. We spend almost all of our front-end coding
+time writing Elm. Our software helps English teachers, and their students answer
+millions of questions per day on our site. About half of our 15-person
+engineering &lt;a href=&#34;http://noredink.com/about/team&#34;&gt;team&lt;/a&gt; works remotely from around
+the world, and the other half is in our San Francisco office.
+&lt;a href=&#34;https://www.noredink.com/jobs&#34;&gt;We’re hiring&lt;/a&gt; for front-end, back-end, and ops.
+No prior Elm experience necessary!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DailyDrip</title>
+      <link>https://www.elm-conf.us/sponsor/dailydrip/</link>
+      <pubDate>Mon, 06 Jun 2016 14:56:47 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsor/dailydrip/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.dailydrip.com/?utm_source=elm-conf&amp;amp;utm_medium=banner&amp;amp;utm_campaign=elm-conf-2016&#34;&gt;DailyDrip&lt;/a&gt;
+makes learning easier. Every weekday you&amp;rsquo;ll get a bite-sized piece of something
+awesome about a topic you are interested in. Best of all: it only takes five
+minutes a day.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oasis Digital</title>

@@ -232,27 +232,45 @@ header {
   background-color: #5C6378; }
 
 @media screen and (min-width: 50em) {
-  #sponsors h2, #sponsors li {
+  #sponsors h2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%; }
-    #sponsors h2:last-child, #sponsors li:last-child {
+    #sponsors h2:last-child {
+      margin-right: 0; }
+  #sponsors ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    #sponsors ul:last-child {
       margin-right: 0; } }
 #sponsors {
   background-color: #7D8497;
   padding-top: 60px;
   padding-bottom: 60px; }
-  #sponsors h2, #sponsors li {
-    line-height: 60px;
-    justify-content: center;
-    display: flex; }
+  #sponsors ul {
+    text-align: center; }
     @media screen and (min-width: 50em) {
-      #sponsors h2, #sponsors li {
-        display: inline; } }
-
-.logo-asteris {
-  padding-top: 10px; }
+      #sponsors ul {
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
+    #sponsors ul li {
+      margin-bottom: 40px; }
+      #sponsors ul li:last-child {
+        margin-bottom: 0; }
+      @media screen and (min-width: 50em) {
+        #sponsors ul li {
+          margin-right: 40px;
+          margin-bottom: 0; } }
+  #sponsors h2 {
+    line-height: 136px;
+    text-align: center; }
+    @media screen and (min-width: 50em) {
+      #sponsors h2 {
+        text-align: left; } }
 
 @media screen and (min-width: 50em) {
   footer {
