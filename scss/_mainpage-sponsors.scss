@@ -26,7 +26,13 @@
 	}
 }
 
-// height adjustments
-.logo-asteris {
-    padding-top: 10px;
+@include media($large-screen) {
+    // height adjustments
+    .logo-asteris {
+        padding-top: 13px;
+    }
+
+    .logo-noredink {
+        padding-top: 16px;
+    }
 }
