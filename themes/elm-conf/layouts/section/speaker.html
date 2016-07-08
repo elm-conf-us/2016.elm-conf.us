@@ -17,16 +17,17 @@
 <section class="solo">
     <h2>Keynote Speaker</h2>
 </section>
+
 {{range where .Data.Pages "Type" "speaker"}}
 {{if .Params.keynote}}
 {{.Render "bigListItem"}}
 {{end}}
 {{end}}
-<!-- TODO: uncomment this block when we have speakers
+
 <section class="solo">
     <h2>Speakers</h2>
 </section>
--->
+
 {{range $i, $speaker := where .Data.Pages "Type" "speaker"}}
 {{if not $speaker.Params.keynote}}
 {{$speaker.Render "listItem"}}
