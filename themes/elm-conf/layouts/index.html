@@ -47,7 +47,12 @@
 </section>
 {{range where .Data.Pages "Type" "speaker"}}
 {{if .Params.keynote}}
-{{.Render "listItem"}}
+{{.Render "listSummary"}}
+{{end}}
+{{end}}
+{{range where .Data.Pages "Type" "speaker"}}
+{{if not .Params.keynote}}
+{{.Render "listSummary"}}
 {{end}}
 {{end}}
 <section id="sponsors">
