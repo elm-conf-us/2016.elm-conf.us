@@ -2,7 +2,7 @@
 date: "2016-07-08T11:01:25-05:00"
 title: "Kris Jenkins"
 talk: "Analytics for Elm Apps"
-slot: TBD
+slot: "2016-09-15T11:45:00-06:00"
 headshot: KrisJenkins.jpg
 lightning: true
 

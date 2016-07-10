@@ -2,7 +2,7 @@
 date: "2016-07-08T11:18:16-05:00"
 title: "Jessica Kerr"
 talk: "The Clockwork Gardener: Growing an Elm App With Templates"
-slot: TBD
+slot: "2016-09-15T16:00:00-06:00"
 headshot: JessicaKerr.jpg
 
 ---

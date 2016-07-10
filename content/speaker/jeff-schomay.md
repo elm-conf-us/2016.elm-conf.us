@@ -2,7 +2,7 @@
 date: "2016-07-08T11:26:42-05:00"
 title: "Jeff Schomay"
 talk: Building an Interactive Storytelling Framework in Elm
-slot: TBD
+slot: "2016-09-15T13:50:00-06:00"
 headshot: JeffSchomay.jpg
 
 ---

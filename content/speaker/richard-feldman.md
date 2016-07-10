@@ -2,7 +2,7 @@
 date: "2016-07-08T10:27:13-05:00"
 title: "Richard Feldman"
 talk: "Making Impossible States Impossible"
-slot: TBD
+slot: "2016-09-15T16:30:00-06:00"
 headshot: RichardFeldman.jpg
 
 ---

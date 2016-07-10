@@ -2,7 +2,7 @@
 date: "2016-07-08T10:10:34-05:00"
 title: "Ossi Hanhinen"
 talk: Beyond Hello World and Todo Lists
-slot: TBD
+slot: "2016-09-15T10:15:00-06:00"
 headshot: OssiHanhinen.jpg
 
 ---

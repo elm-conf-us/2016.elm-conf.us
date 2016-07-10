@@ -2,7 +2,7 @@
 date: "2016-07-08T11:22:43-05:00"
 title: "Joël Quenneville"
 talk: Rolling Random Romans
-slot: TBD
+slot: "2016-09-15T11:10:00-06:00"
 headshot: JoelQuenneville.jpg
 
 ---

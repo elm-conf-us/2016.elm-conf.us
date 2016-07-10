@@ -2,7 +2,7 @@
 date: "2016-07-08T10:54:08-05:00"
 title: "Luke Westby"
 talk: Compilers as Therapists, or Why Elm is Good for ADHD
-slot: TBD
+slot: "2016-09-15T13:20:00-06:00"
 headshot: LukeWestby.jpg
 
 ---

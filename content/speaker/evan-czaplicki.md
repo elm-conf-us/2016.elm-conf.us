@@ -2,7 +2,7 @@
 date: "2016-05-18T07:48:25-05:00"
 title: "Evan Czaplicki - Creator of Elm"
 talk: Keynote
-slot: TBD
+slot: "2016-09-15T09:00:00-06:00"
 headshot: EvanCzaplicki.jpg
 keynote: true
 
