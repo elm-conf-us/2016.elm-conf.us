@@ -2,7 +2,7 @@
     <div class="content">
         <img alt="{{.Title}}" src="/images/speakers/{{.Params.headshot}}"/>
         <h2>{{.Params.talk}}: <strong>{{.Title}}</strong></h2>
-        {{if ne .Params.slot "TBD"}}<h3>{{.Params.slot}}</h3>{{end}}
+        {{if ne .Params.slot "TBD"}}<h3>{{dateFormat "15:05 AM" .Params.slot}}</h3>{{end}}
         {{.Content}}
     </div>
 </section>

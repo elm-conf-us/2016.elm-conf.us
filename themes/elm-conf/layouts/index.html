@@ -37,15 +37,8 @@
         </p>
     </div>
 </section>
-{{range where .Data.Pages "Type" "speaker"}}
-{{if .Params.keynote}}
+{{range $i, $speaker := sort (where .Data.Pages "Type" "speaker") "Params.slot"}}
 {{.Render "listSummary"}}
-{{end}}
-{{end}}
-{{range where .Data.Pages "Type" "speaker"}}
-{{if not .Params.keynote}}
-{{.Render "listSummary"}}
-{{end}}
 {{end}}
 <section id="sponsors">
     <div class="content">

@@ -28,9 +28,9 @@
     <h2>Speakers</h2>
 </section>
 
-{{range $i, $speaker := where .Data.Pages "Type" "speaker"}}
+{{range $i, $speaker := sort (where .Data.Pages "Type" "speaker") "Params.slot"}}
 {{if not $speaker.Params.keynote}}
-{{$speaker.Render "listItem"}}
+{{$speaker.Render "bigListItem"}}
 {{end}}
 {{end}}
 {{partial "footer.html" .}}
