@@ -36,7 +36,9 @@ happy and productive.
 ---
 
 Abadi is a senior developer at Engage Software, a St. Louis based software
-company. He has been writing Elm in production since March 2016. He’s the author of
-[Elm Credit Card](https://abadi199.github.io/elm-creditcard/) and
+company. He has been writing Elm in production since March 2016. He’s the author
+of [Elm Credit Card](https://abadi199.github.io/elm-creditcard/) and
 [Elm Input Extra](http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest/).
-Outside of work, he spends time with his wife and son, and works on making his house smarter so he can spend more time with his family and less on doing chores.
+Outside of work, he spends time with his wife and son, and works on making his
+house smarter so he can spend more time with his family and less on doing
+chores.
