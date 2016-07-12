@@ -105,4 +105,19 @@
 			margin-bottom: $baseline;
 		}
 	}
+
+	ul {
+		padding-left: $baseline;
+		list-style-type: disc;
+		padding-bottom: $baseline;
+		li {
+			padding-bottom: $baseline / 2;
+      font-size: 1.0em;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
 }
+
