@@ -12,6 +12,7 @@ Roman random name generator for the goddess Juno, based on a series of dependent
 and independent constraints.
 
 <!--more-->
+---
 
 You are an ancient software engineer. Juno, the Roman goddess of marriage and
 fertility, surprises you by walking into your office and offering you an
