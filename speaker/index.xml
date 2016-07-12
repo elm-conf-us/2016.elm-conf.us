@@ -6,8 +6,420 @@
     <description>Recent content in Speakers on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 May 2016 07:48:25 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jul 2016 08:26:13 -0600</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/speaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Matthew Griffith</title>
+      <link>https://www.elm-conf.us/speaker/matthew-griffith/</link>
+      <pubDate>Tue, 12 Jul 2016 08:26:13 -0600</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/matthew-griffith/</guid>
+      <description>&lt;p&gt;Games and rich applications present a compelling use-case for Elm, but managing
+dynamic animations can quickly become complicated. Here’s how to succinctly
+express animation pipelines using the elm-style-animation library and how to
+architect your animation code in a readable, extensible manner.&lt;/p&gt;
+
+&lt;p&gt;In this talk we’ll cover…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What options are available for animation in Elm and when it makes sense to use
+them.&lt;/li&gt;
+&lt;li&gt;How to tackle real-world animation using the elm-style-animation library.&lt;/li&gt;
+&lt;li&gt;A straightforward way to organize animations so that they are readable,
+extensible, and easily integrated into the Elm architecture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re here, you probably already know that Elm is a solid base for building
+complex applications. You’ll come away from this talk with the tools to make
+those applications gorgeous as well.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Matthew Griffith is a developer with a passion for intuitive interfaces. Then
+again, he’s also a data scientist who’s worked in cheminformatics for the past
+eight years and loves a good dataset. More recently he developed the
+elm-style-animation library in his pursuit of creating maintainable, beautiful
+apps in Elm.&lt;/p&gt;
+
+&lt;p&gt;Matthew is a developer in residence at Cornell Tech in Manhattan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Abadi Kurniawan</title>
+      <link>https://www.elm-conf.us/speaker/abadi-kurniawan/</link>
+      <pubDate>Fri, 08 Jul 2016 13:48:16 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/abadi-kurniawan/</guid>
+      <description>&lt;p&gt;While Elm pretty much solves the tool and framework fatigue when starting a new
+front-end project, we still have the same issue for the back-end. Using Horizon
+in your Elm app can help alleviate the pain by reducing the amount of work you
+have to do in the back-end, so you can write more Elm code.&lt;/p&gt;
+
+&lt;p&gt;When starting a new project in JavaScript, you’re most likely going to spend a
+lot of time choosing the tools and frameworks to use, and then spend more time
+configuring them. Elm pretty much solves this problem by providing all the
+tooling you need out of the box, and by The Elm Community’s preference to have
+one way to do things, so you don’t have choose between 100 different packages
+just to solve 1 problem.&lt;/p&gt;
+
+&lt;p&gt;But, how about the back-end? You still have to choose all the stacks; from
+database, web server, programming language, and the framework. At least, until
+we have server side Elm, we still have the same problem here.&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t it be great if you don’t have to worry about the back-end, and can just
+focus on writing Elm code and be happy? We can do that with
+&lt;a href=&#34;http://horizon.io/&#34;&gt;Horizon&lt;/a&gt;. Horizon is an open source server designed for
+building real time application without writing any back-end code. With Horizon,
+all you need to do is to run the Horizon server, start writing Elm code, and be
+happy and productive.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Abadi is a senior developer at Engage Software, a St. Louis based software
+company. He has been writing Elm in production since March 2016. He’s the author
+of &lt;a href=&#34;https://abadi199.github.io/elm-creditcard/&#34;&gt;Elm Credit Card&lt;/a&gt; and
+&lt;a href=&#34;http://package.elm-lang.org/packages/abadi199/elm-input-extra/latest/&#34;&gt;Elm Input Extra&lt;/a&gt;.
+Outside of work, he spends time with his wife and son, and works on making his
+house smarter so he can spend more time with his family and less on doing
+chores.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jeff Schomay</title>
+      <link>https://www.elm-conf.us/speaker/jeff-schomay/</link>
+      <pubDate>Fri, 08 Jul 2016 11:26:42 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/jeff-schomay/</guid>
+      <description>&lt;p&gt;The Elm Architecture works great for apps, but how about for building a game
+framework? This talk looks at using the strengths of Elm to build the open
+source “Elm Narrative Engine,” including an example interactive story and the
+challenges and solutions faced in using Elm to make a framework.&lt;/p&gt;
+
+&lt;p&gt;As a programmer by profession and passion, but with a background and schooling
+in film production and screenwriting, I have forever been drawn to playing and
+making games with strong narrative components.&lt;/p&gt;
+
+&lt;p&gt;I have played, studied and written screenplays, classic text adventures, visual
+novels, point-and-click adventures, and other storytelling game mediums and
+tools, comparing and contrasting the different types of stories each affords.&lt;/p&gt;
+
+&lt;p&gt;As a self-described “Ambassador of Elm,” I decided to use the strengths of Elm
+to build a storytelling game framework called the “Elm Narrative Engine” for
+telling the types of interactive stories I want to tell based on all of my
+research in this area. The games it makes would be less about modeling spacial
+navigation and branching narratives over time, and more about modeling a story
+that unfolds like a puzzle, like a cross between a traditional novel and a
+point-and-click adventure. The design goals include a clean and simple way to
+author stories as a developer, and a simple interaction style for players,
+keeping the focus squarely on the text-based narrative.&lt;/p&gt;
+
+&lt;p&gt;This talk looks briefly at some of existing options in this area, such as Inform
+7 for writing text adventures, RenPy for making visual novels, and Twine for
+“non-linear hypertext narratives,” comparing and contrasting their approaches to
+the Elm Narrative Engine.&lt;/p&gt;
+
+&lt;p&gt;After a demo of a fully-featured story written on the Elm Narrative Engine, I
+will dive into the code and the technical considerations and challenges faced in
+approaching building the engine with Elm. I will give a lot of attention to the
+differences of building a framework in Elm, as opposed to an app or library and
+the challenges this brings, including these topics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How The Elm Architecture applies to designing a framework&lt;/li&gt;
+&lt;li&gt;Treating the engine as a “run time” and the client as an “embedded app”&lt;/li&gt;
+&lt;li&gt;How to make use of types to build a clean client “api”&lt;/li&gt;
+&lt;li&gt;Data structures and state-machines for narrative data and internationalization
+consideration&lt;/li&gt;
+&lt;li&gt;Using the “time traveling debugger” technique for “rewinding” narrative
+branches&lt;/li&gt;
+&lt;li&gt;Using Elm’s Commands for adding multi-media to a story&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By the end of the talk, the audience should have a good appreciation for the
+technical and design decisions in interactive storytelling, and a concrete grasp
+on designing a framework in Elm and how to define the boundaries between client
+and framework code. As the engine is open source, I encourage pull requests, and
+my hope is that some of the members of the audience will create their own
+narrative stories on the Elm Narrative Engine for myself an the rest of the
+community to play!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’ve been a professional entertainer and a professional programmer. I’ve written
+screenplays and I’ve written mobile apps. I’ve been a director of photography
+and a technical lead. I’ve started more than one juggling club and more than one
+hack night meetup. I’ve lived in multiple places in the US and multiple places
+in Europe. I love art and I love vim. I preach the power of creativity and the
+power of functional programming.&lt;/p&gt;
+
+&lt;p&gt;I find fulfillment and perfection in living in two worlds, and combining them
+into one.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Joël Quenneville</title>
+      <link>https://www.elm-conf.us/speaker/joel-quenneville/</link>
+      <pubDate>Fri, 08 Jul 2016 11:22:43 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/joel-quenneville/</guid>
+      <description>&lt;p&gt;Dive into Elm’s random generators on a quest to build a historically accurate
+Roman random name generator for the goddess Juno, based on a series of dependent
+and independent constraints.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You are an ancient software engineer. Juno, the Roman goddess of marriage and
+fertility, surprises you by walking into your office and offering you an
+assignment. Overseeing the birth and naming of all Roman children is becoming a
+large and monotonous task. She is looking to modernize and automate. Will you
+build her a piece of software to randomly generate valid information for a Roman
+child?&lt;/p&gt;
+
+&lt;p&gt;Join us on the quest to complete this project using Elm’s random generators.
+Along the way, we will see how to create complex generators out of simple ones,
+how to handle dependent and independent constraints, and how to work with
+percentages and Maybe. You will leave with a firm grasp of how Elm handles
+randomness in a functional manner and the confidence to implement your own
+generators.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Joël is a software developer at thoughtbot. He is passionate about best
+practices and building excellent software. Although he got his start with
+dynamically typed imperative languages, he has recently become fascinated with
+the statically typed functional world and Elm in particular. Outside of
+programming, Joël loves to study history. He often combines these two interests
+together to play with historically-themed software side projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jessica Kerr</title>
+      <link>https://www.elm-conf.us/speaker/jessica-kerr/</link>
+      <pubDate>Fri, 08 Jul 2016 11:18:16 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/jessica-kerr/</guid>
+      <description>&lt;p&gt;I love the explicitness and structure of Elm. I don’t love typing.&lt;/p&gt;
+
+&lt;p&gt;A mechanical friend can help with both: smart templates modify code to perform
+common tasks, and Github PRs keep this safe and editor-independent.&lt;/p&gt;
+
+&lt;p&gt;See an Elm project created and grown with strategically placed automation.&lt;/p&gt;
+
+&lt;p&gt;I love the explicitness and the consistent structure of Elm code and the Elm
+Architecture. Sometimes I don’t love the typing involved.&lt;/p&gt;
+
+&lt;p&gt;Elm is well-suited to code generation. We like to generate code (like with
+html2elm) and modify it. The automation doesn’t have to end there!&lt;/p&gt;
+
+&lt;p&gt;This session will demonstrate growing an Elm app with the help of a smarter
+templating engine and Github pull requests. Tasks like “add a new component” or
+“start using elm-test” or “change a service contract” happen safely and
+mechanically, outside of your favorite editor.&lt;/p&gt;
+
+&lt;p&gt;Keep all the structure, skip some of the tedium. See another reason that Elm can
+be our most productive language system yet.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Jessica Kerr (better known as Jessitron) works on deployment at Stripe. She
+writes Ruby, Scala, Go, you name it. She speaks at conferences in the US,
+Europe, and Australia. She podcasts as a Ruby Rogue, parents two daughters, and
+writes Elm for fun. Look for her in St. Louis, San Francisco, and wherever
+functional programming and silliness meet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tessa Kelly</title>
+      <link>https://www.elm-conf.us/speaker/tessa-kelly/</link>
+      <pubDate>Fri, 08 Jul 2016 11:06:34 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/tessa-kelly/</guid>
+      <description>&lt;p&gt;Elegant data structures are different across programming languages, and creating
+them should be approached differently. Leverage Elm’s union types to build
+simple and readable structures, beginning with binary trees.&lt;/p&gt;
+
+&lt;p&gt;Writing a binary tree might be a familiar task in JavaScript or Ruby, and it
+might seem like a very similar problem in Elm. While it’s possible to create
+data structures in Elm that are very similar to ones written in languages that
+aren’t strictly functional and that don’t have types, there are better
+approaches. This talk will explore a few different implementations and
+recommendations, and assumes an audience without extensive academic ML-family
+language experience.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As a software engineer at NoRedInk, Tessa reads, writes, and extends a lot of
+Elm code. Before joining NoRedInk, Tessa spent her time thinking about
+curricula, learning, and engagement in the context of teaching web development.
+She holds a BA in Mathematics from New York University, where she also minored
+in History and in Middle Eastern Studies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Murphy Randle</title>
+      <link>https://www.elm-conf.us/speaker/murphy-randle/</link>
+      <pubDate>Fri, 08 Jul 2016 10:57:34 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/murphy-randle/</guid>
+      <description>&lt;p&gt;This talk combines the power of Elm and Elixir’s Phoenix to turn Twitter into a
+platform for live crowd-sourced music composition. We’ll cover Elm and Elixir
+channels, custom DSL parsing in Elm, and driving the Web Audio API through Elm’s
+native inter-op abstraction: ports.&lt;/p&gt;
+
+&lt;p&gt;This talk aims to demonstrate the power of coordinating:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Parser combinators, and Elm’s bogdanp/elm-combine library for transforming
+strings into data&lt;/li&gt;
+&lt;li&gt;Elm’s standard application architecture&lt;/li&gt;
+&lt;li&gt;Ports (Elm’s abstraction for interacting with its host language, in this case,
+Javascript)&lt;/li&gt;
+&lt;li&gt;The Phoenix Web framework and its real-time channels&lt;/li&gt;
+&lt;li&gt;Elm’s integration with Phoenix channels&lt;/li&gt;
+&lt;li&gt;Tone.js for making music with the Web Audio API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For illustrative purposes we’ll suppose we are a consultancy, and a client has
+just approached us with the need to turn tweets into music. She has come up with
+a compact musical notation that will fit a good chunk of music into 140
+characters, and she wants us to teach the browser to play the music encoded in
+that notation. But that’s not all. Her vision includes a client that streams in
+tweets, parsing them and queueing them up to be played as they happen,
+ultimately allowing users to listen to a never-ending piece of real-time music,
+composed by a symphony of twitter users world-wide.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Chief smile officer and executive code whisperer at Kuali, Murphy makes tools to
+support higher education. He’s an Egghead.io instructor, a full-stack JS dev,
+and a functional programming padawan. He comes from a background in animation
+technologies, specializing in rendering and pipeline development. If you look
+carefully, you might see his name in the credits of a film.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Luke Westby</title>
+      <link>https://www.elm-conf.us/speaker/luke-westby/</link>
+      <pubDate>Fri, 08 Jul 2016 10:54:08 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/luke-westby/</guid>
+      <description>&lt;p&gt;I have ADHD and struggle to stay focused on things. This has actually been
+helpful in learning JS since things change as quickly as my attention does, but
+it makes it hard to finish things. Elm pushes out distractions so I can focus,
+and at last the first side-project I’ve ever completed is in Elm!&lt;/p&gt;
+
+&lt;p&gt;I’ve lived with ADHD my whole life. There are certainly worse things to live
+with, but our world is tailored to people who can concentrate – tasks and
+deadlines drive our working society. I’ve spent most of my illustrious career
+working with JS, where things change just as quickly as my attention, and it’s
+been hard to feel a sense of grounding or belonging. Then I found Elm. Even
+though Elm wasn’t designed for people with ADHD explicitly, it is the best
+language for those who do to build applications. With Elm, the distractions fall
+away and I am able to channel more of the craziness that I experience in my head
+into useful work. In this talk I will share my experiences as such a person with
+all of you. I hope you’ll come away understanding that using Elm isn’t just good
+for applications, it’s good for people. If we can keep the developer’s personal
+experiences in mind when building tools and libraries we will have a more
+inclusive and accessible community!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Luke Westby is a JavaScript developer at Raise in Chicago, IL, USA with
+experience on the front-end and in Node. At work he spends much of his time
+building UIs with React, Redux, and Redux Loop, and developing services with
+Node and Hapi. Outside of work he is an active member of the Elm community,
+maintaining builtwithelm.co and several open source packages including
+elm-http-builder and elm-verbal-expressions. He loves contributing to the Elm
+community by answering questions in the Elm Slack, writing blog posts, and
+organizing the Chicago Elm Meetup. When he&amp;rsquo;s not thinking about code he likes to
+play the guitar, speed-run Metroid Fusion, and watch far too much TV with his
+girlfriend.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Richard Feldman</title>
+      <link>https://www.elm-conf.us/speaker/richard-feldman/</link>
+      <pubDate>Fri, 08 Jul 2016 10:27:13 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/richard-feldman/</guid>
+      <description>&lt;p&gt;Among the most time-consuming bugs to track down are the ones where we look at
+our application state and say &amp;ldquo;this shouldn’t be possible.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;We can use Elm’s compiler to rule out many of these bugs in the first place—but
+only if we design our Models using the right techniques! This talk explores how.&lt;/p&gt;
+
+&lt;p&gt;When I first started using Elm, I wrote my Models roughly the same way I would
+have in JavaScript. I was happy that I no longer got type mismatches, but I
+still often found myself debugging how I’d gotten into an application state that
+I’d thought was impossible. Over time I learned I could rule out many of these
+bugs with more careful Model design, and my applications got more reliable as a
+result.&lt;/p&gt;
+
+&lt;p&gt;This talk will explore the techniques I’ve learned to do exactly that. We’ll
+look at how to use union types for more fine-grained control than records, how
+to rule out the possibility of collections being unexpectedly empty, and how
+exposing the right things within modules can preserve these guarantees across a
+large code base.&lt;/p&gt;
+
+&lt;p&gt;Come see how we can use Elm’s compiler to take undesirable application states
+from &amp;ldquo;ought to be impossible&amp;rdquo; to &amp;ldquo;actually impossible!&amp;rdquo;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Richard is the author of &amp;ldquo;Elm in Action&amp;rdquo; from Manning Publications, and the
+instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
+about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm
+meetup, he likes to take a break from his job of writing Elm code full-time as
+an engineer at NoRedInk by kicking back and working on some of his open-source
+Elm projects.&lt;/p&gt;
+
+&lt;p&gt;Some have said he’s &amp;ldquo;a fan of Elm,&amp;rdquo; but he’s not sure where they got that wild
+idea.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ossi Hanhinen</title>
+      <link>https://www.elm-conf.us/speaker/ossi-hanhinen/</link>
+      <pubDate>Fri, 08 Jul 2016 10:10:34 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/ossi-hanhinen/</guid>
+      <description>&lt;p&gt;Have you come into grips with Elm as a language and prolific enough to start
+using it in a real project? Awesome! Did you already have an idea of how you
+would structure your application, handle authentication and maybe show
+toast-like pop up messages in the UI? If not, this talk is for you.&lt;/p&gt;
+
+&lt;p&gt;Many people know how to create small apps for fun in Elm. Some have crafted
+larger things but felt they were missing something. Having done two larger
+customer projects in Elm, I have some solid experience under my belt about
+building big applications for production. In both projects, the initial folder
+structure and the initial module architecture became untenable in a few months.
+This talk is a down-to-earth lessons learned aimed for everyone who has done or
+is planning on doing production applications using the language. I will
+introduce strategies to overcome some of the common problems we have as frontend
+engineers, but also share some war stories of times when things didn’t quite go
+as planned.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ossi is building apps for browsers to run and users to enjoy at Futurice. He
+likes to constantly challenge his views on user interface programming, and
+lately has gravitated towards functional programming and strong typing with Elm.
+Ossi has started two separate customer projects (both of them ongoing) using the
+language, making Futurice one of the first commercial users of Elm. He is also
+the main person behind Elm Native UI, the open source project trying to make
+building mobile apps with React Native possible in Elm, and Keyboard.Extra.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Evan Czaplicki - Creator of Elm</title>
@@ -15,7 +427,9 @@
       <pubDate>Wed, 18 May 2016 07:48:25 -0500</pubDate>
       
       <guid>https://www.elm-conf.us/speaker/evan-czaplicki/</guid>
-      <description>&lt;p&gt;Evan created Elm, a functional language for web programming. He is an open source engineer at NoRedInk, where all front-end code is written in Elm these days. He continues to develop the language, tools, and libraries full time.&lt;/p&gt;
+      <description>&lt;p&gt;Evan created Elm, a functional language for web programming. He is an open
+source engineer at NoRedInk, where all front-end code is written in Elm these
+days. He continues to develop the language, tools, and libraries full time.&lt;/p&gt;
 </description>
     </item>
     
