@@ -29,10 +29,10 @@ those applications gorgeous as well.
 
 ---
 
-Matthew Griffith is a web developer with a passion for intuitive interfaces.
-Then again, he’s also a data scientist who’s worked in cheminformatics for the
-past eight years and loves a good dataset. More recently he developed the
+Matthew Griffith is a developer with a passion for intuitive interfaces. Then
+again, he’s also a data scientist who’s worked in cheminformatics for the past
+eight years and loves a good dataset. More recently he developed the
 elm-style-animation library in his pursuit of creating maintainable, beautiful
 apps in Elm.
 
-Matthew has a degree in Biology and currently lives in NYC.
+Matthew is a developer in residence at Cornell Tech in Manhattan.
