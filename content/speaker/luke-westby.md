@@ -31,12 +31,12 @@ inclusive and accessible community!
 ---
 
 Luke Westby is a JavaScript developer at Raise in Chicago, IL, USA with
-experience on the front-end and in Node. At work he spends much of my time
+experience on the front-end and in Node. At work he spends much of his time
 building UIs with React, Redux, and Redux Loop, and developing services with
 Node and Hapi. Outside of work he is an active member of the Elm community,
 maintaining builtwithelm.co and several open source packages including
 elm-http-builder and elm-verbal-expressions. He loves contributing to the Elm
 community by answering questions in the Elm Slack, writing blog posts, and
 organizing the Chicago Elm Meetup. When he's not thinking about code he likes to
-play the guitar, speed-run Metroid Fusion, and watch far too much TV with my
+play the guitar, speed-run Metroid Fusion, and watch far too much TV with his
 girlfriend.
