@@ -2,6 +2,7 @@
 title: DailyDrip
 slug: dailydrip
 date: "2016-06-06T14:56:47-05:00"
+sponsor_levels: [ "root" ]
 
 ---
 

@@ -42,13 +42,13 @@
 {{end}}
 <section id="sponsors">
     <div class="content">
-        <h2>Sponsors</h2>
-        <ul>
-            {{range where .Data.Pages "Type" "sponsor"}}
-            <li>{{.Render "logoSmall"}}</li>
-            {{end}}
-        </ul>
-    </div>
+			<h2>Root Sponsors [<a href="/sponsor">see all</a>]</h2>
+      <ul>
+				{{ range .Site.Taxonomies.sponsor_levels.root.Pages }}
+					<li>{{.Render "logoSmall"}}</li>
+				{{end}}
+			</ul>
+		</div>
 </section>
 
 {{partial "footer.html" .}}

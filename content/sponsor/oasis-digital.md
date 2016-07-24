@@ -2,6 +2,7 @@
 title: "Oasis Digital"
 slug: oasis-digital
 date: "2016-06-01T14:16:00-05:00"
+sponsor_levels: [ "branch" ]
 
 ---
 

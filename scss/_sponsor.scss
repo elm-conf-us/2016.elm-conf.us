@@ -15,8 +15,9 @@
 
 // style
 .sponsor {
-	&:nth-child(odd) { background-color: $background-lighter; }
-	&:nth-child(even) { background-color: $background-lightest; }
+	//&:nth-child(even) { background-color: $background-lighter; }
+	//&:nth-child(odd) { background-color: $background-lightest; }
+	background-color: $background-lightest;
 
 	padding: $baseline * 3 2em;
 

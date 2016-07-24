@@ -1,8 +1,11 @@
 {{partial "header.html" .}}
+{{ range $key, $taxonomy := .Site.Taxonomies.sponsor_levels }}
 <section class="solo">
-    <h1>Sponsors</h1>
+	<h1>{{$key}} Sponsors</h1>
 </section>
-{{range where .Data.Pages "Type" "sponsor"}}
-{{.Render "listItem"}}
+
+	{{ range $taxonomy.Pages }}
+		{{.Render "listItem"}}
+	{{end}}
 {{end}}
 {{partial "footer.html" .}}

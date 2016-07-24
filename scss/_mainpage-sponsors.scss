@@ -2,10 +2,8 @@
 @include media($large-screen) {
 	#sponsors {
 		h2 {
-			@include span-columns(2);
 		}
     ul {
-      @include span-columns(10);
     }
 	}
 }
@@ -15,6 +13,9 @@
 	background-color: $background-lightest;
 
 	padding-top: $baseline * 3;
+	@include media($large-screen) {
+		padding-top: $baseline;
+	}
 	padding-bottom: $baseline * 3;
 
   ul {
@@ -46,7 +47,6 @@
       line-height: 136px;
       text-align: center;
       @include media($large-screen) {
-          text-align: left;
       }
 	}
 }

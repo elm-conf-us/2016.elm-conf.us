@@ -2,6 +2,8 @@ baseurl: "https://www.elm-conf.us/"
 languageCode: "en-us"
 title: "elm-conf 2016"
 theme: "elm-conf"
+taxonomies:
+  sponsor_levels: "sponsor_levels"
 params:
   date: September 15, 2016
   location: St. Louis, Missouri

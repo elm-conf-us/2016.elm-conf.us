@@ -2,6 +2,7 @@
 title: NoRedInk
 slug: noredink
 date: "2016-06-06T14:56:48-05:00"
+sponsor_levels: [ "root" ]
 
 ---
 
