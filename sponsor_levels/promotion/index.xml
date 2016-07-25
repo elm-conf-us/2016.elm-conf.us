@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Promotion on elm-conf 2016</title>
+    <link>https://www.elm-conf.us/sponsor_levels/promotion/</link>
+    <description>Recent content in Promotion on elm-conf 2016</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 May 2016 16:15:11 -0500</lastBuildDate>
+    <atom:link href="https://www.elm-conf.us/sponsor_levels/promotion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Asteris</title>
+      <link>https://www.elm-conf.us/sponsor/asteris/</link>
+      <pubDate>Tue, 17 May 2016 16:15:11 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsor/asteris/</guid>
+      <description>&lt;p&gt;Founded in 2014, &lt;a href=&#34;https://aster.is&#34;&gt;Asteris&lt;/a&gt; provides software design and
+development services for next-generation infrastructure software for the modern
+datacenter. Take advantage of powerful tools without needing a team of experts
+to deploy and manage infrastructure. Deploy Mesos, Kubernetes, or Docker Swarm
+to any cloud in minutes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manning</title>
+      <link>https://www.elm-conf.us/sponsor/manning/</link>
+      <pubDate>Wed, 20 Jan 2016 16:15:11 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsor/manning/</guid>
+      <description>&lt;p&gt;Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. We also publish for students and young programmers, including occasionally for children.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -231,25 +231,13 @@ header {
 #keynote {
   background-color: #5C6378; }
 
-@media screen and (min-width: 50em) {
-  #sponsors h2 {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
-    #sponsors h2:last-child {
-      margin-right: 0; }
-  #sponsors ul {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%; }
-    #sponsors ul:last-child {
-      margin-right: 0; } }
 #sponsors {
   background-color: #7D8497;
   padding-top: 60px;
   padding-bottom: 60px; }
+  @media screen and (min-width: 50em) {
+    #sponsors {
+      padding-top: 20px; } }
   #sponsors ul {
     text-align: center; }
     @media screen and (min-width: 50em) {
@@ -268,9 +256,6 @@ header {
   #sponsors h2 {
     line-height: 136px;
     text-align: center; }
-    @media screen and (min-width: 50em) {
-      #sponsors h2 {
-        text-align: left; } }
 
 @media screen and (min-width: 50em) {
   footer {
@@ -458,11 +443,8 @@ footer {
       .sponsor .about-sponsor:last-child {
         margin-right: 0; } }
 .sponsor {
+  background-color: #7D8497;
   padding: 60px 2em; }
-  .sponsor:nth-child(odd) {
-    background-color: #5C6378; }
-  .sponsor:nth-child(even) {
-    background-color: #7D8497; }
   .sponsor .logo {
     display: flex;
     justify-content: center;

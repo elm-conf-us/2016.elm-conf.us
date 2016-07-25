@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diversity on elm-conf 2016</title>
+    <link>https://www.elm-conf.us/sponsor_levels/diversity/</link>
+    <description>Recent content in Diversity on elm-conf 2016</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2016 16:15:11 -0500</lastBuildDate>
+    <atom:link href="https://www.elm-conf.us/sponsor_levels/diversity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stripe</title>
+      <link>https://www.elm-conf.us/sponsor/stripe/</link>
+      <pubDate>Sat, 20 Feb 2016 16:15:11 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/sponsor/stripe/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://stripe.com/&#34;&gt;Stripe&lt;/a&gt; is an American technology company, operating in over 20 countries, that allows both private individuals and businesses to accept payments over the Internet. Stripe focuses on providing the technical, fraud prevention, and banking infrastructure required to operate online payment systems.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
