@@ -1,7 +1,7 @@
 {{partial "header.html" .}}
-{{ range $key, $taxonomy := .Site.Taxonomies.sponsor_levels }}
+{{ range $i, $taxonomy := .Site.Taxonomies.sponsor_levels.ByCount }}
 <section class="solo">
-	<h1>{{$key}} Sponsors</h1>
+	<h1>{{$taxonomy.Name}} Sponsors</h1>
 </section>
 
 	{{ range $taxonomy.Pages }}
