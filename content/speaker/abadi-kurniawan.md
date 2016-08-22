@@ -2,7 +2,7 @@
 date: "2016-07-08T13:48:16-05:00"
 title: "Abadi Kurniawan"
 talk: "0-60 in 15 Minutes: Building a Realtime App With Elm and Horizon"
-slot: "2016-09-15T11:45:00-06:00"
+slot: "2016-09-15T12:30:00-06:00"
 headshot: AbadiKurniawan.jpg
 lightning: yes
 

@@ -2,7 +2,7 @@
 date: "2016-07-08T10:57:34-05:00"
 title: "Murphy Randle"
 talk: Nightingale.space - Elm and Crowd-Source Music-Making
-slot: "2016-09-15T15:05:00-06:00"
+slot: "2016-09-15T15:00:00-06:00"
 headshot: MurphyRandle.jpg
 
 ---

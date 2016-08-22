@@ -2,7 +2,7 @@
 date: "2016-07-12T08:26:13-06:00"
 title: "Matthew Griffith"
 talk: Rich Animation
-slot: "2016-09-15T11:45:00-06:00"
+slot: "2016-09-15T12:30:00-06:00"
 headshot: MatthewGriffith.jpg
 lightning: true
 

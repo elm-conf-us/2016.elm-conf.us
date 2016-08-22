@@ -2,7 +2,7 @@
 date: "2016-07-08T11:06:34-05:00"
 title: "Tessa Kelly"
 talk: Functional Data Structures
-slot: "2016-09-15T11:45:00-06:00"
+slot: "2016-09-15T12:30:00-06:00"
 headshot: TessaKelly.jpg
 lightning: true
 
