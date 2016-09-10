@@ -30,10 +30,11 @@ inclusive and accessible community!
 
 ---
 
-Luke Westby is a cofounder and partner at [HumbleSpark](humblespark.com) in Chicago,
-IL, USA. He is an active member of the Elm community, helping to maintaining several
-open source packages including elm-http-builder and elm-lang/core. He loves
-contributing to the Elm community by speaking about the language, answering questions
-in the Elm Slack, writing blog posts, and organizing the Chicago Elm Meetup. When
-he is not thinking about code he likes to play the guitar, speed-run Metroid Fusion,
-and watch far too much TV with his fiancée.
+Luke Westby is a cofounder and partner at
+[HumbleSpark](https://www.humblespark.com/) in Chicago, IL, USA. He is an
+active member of the Elm community, helping to maintaining several open source
+packages including elm-http-builder and elm-lang/core. He loves contributing to
+the Elm community by speaking about the language, answering questions in the
+Elm Slack, writing blog posts, and organizing the Chicago Elm Meetup. When he
+is not thinking about code he likes to play the guitar, speed-run Metroid
+Fusion, and watch far too much TV with his fiancée.
