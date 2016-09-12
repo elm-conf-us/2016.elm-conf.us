@@ -6,8 +6,22 @@
     <description>Recent content on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Jul 2016 08:26:13 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 12 Sep 2016 09:40:00 -0500</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Q&amp;A</title>
+      <link>https://www.elm-conf.us/qa/</link>
+      <pubDate>Mon, 12 Sep 2016 09:40:00 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/qa/</guid>
+      <description>&lt;p&gt;This year&amp;rsquo;s Q&amp;amp;A session is hosted on &lt;a href=&#34;https://github.com/elm-conf-us/2016-q-and-a/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Warping in 3&amp;hellip; 2&amp;hellip; 1&amp;hellip;&lt;/p&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;window.location = &#34;https://github.com/elm-conf-us/2016-q-and-a/issues&#34;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Matthew Griffith</title>
@@ -504,18 +518,6 @@ committee.&lt;/p&gt;
 &lt;li&gt;Brian Hicks (&lt;a href=&#34;https://twitter.com/brianhicks&#34;&gt;@brianhicks&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Joseph Hager (&lt;a href=&#34;https://twitter.com/ajhager&#34;&gt;@ajhager&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Evan Czaplicki - Creator of Elm</title>
-      <link>https://www.elm-conf.us/speaker/evan-czaplicki/</link>
-      <pubDate>Wed, 18 May 2016 07:48:25 -0500</pubDate>
-      
-      <guid>https://www.elm-conf.us/speaker/evan-czaplicki/</guid>
-      <description>&lt;p&gt;Evan created Elm, a functional language for web programming. He is an open
-source engineer at NoRedInk, where all front-end code is written in Elm these
-days. He continues to develop the language, tools, and libraries full time.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>elm-conf 2016</title>
+        <link href="/css/reset.css" rel="stylesheet"/>
+        <link href="/css/main.css" rel="stylesheet"/>
+
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="elm-conf 2016">
+        <meta name="application-name" content="elm-conf 2016">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <nav id="mainnav">
+                <div class="brand">
+                    <a href="/"><div class="conf-logo-small">elm-conf 2016 Home</div></a>
+                </div>
+                <ul>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/speaker/">Speakers</a></li>
+                    <li><a href="/sponsor/">Sponsors</a></li>
+                </ul>
+            </nav>
+        </header>
+
+<section id="about-hero">
+    <div class="content">
+        <div class="elm-logo">Elm Logo</div>
+        <h1>Richard Feldman</h1>
+        <div class="content">
+            <p>Among the most time-consuming bugs to track down are the ones where we look at
+our application state and say &ldquo;this shouldn’t be possible.&rdquo;</p>
+
+<p>We can use Elm’s compiler to rule out many of these bugs in the first place—but
+only if we design our Models using the right techniques! This talk explores how.</p>
+
+<p>When I first started using Elm, I wrote my Models roughly the same way I would
+have in JavaScript. I was happy that I no longer got type mismatches, but I
+still often found myself debugging how I’d gotten into an application state that
+I’d thought was impossible. Over time I learned I could rule out many of these
+bugs with more careful Model design, and my applications got more reliable as a
+result.</p>
+
+<p>This talk will explore the techniques I’ve learned to do exactly that. We’ll
+look at how to use union types for more fine-grained control than records, how
+to rule out the possibility of collections being unexpectedly empty, and how
+exposing the right things within modules can preserve these guarantees across a
+large code base.</p>
+
+<p>Come see how we can use Elm’s compiler to take undesirable application states
+from &ldquo;ought to be impossible&rdquo; to &ldquo;actually impossible!&rdquo;</p>
+
+<hr />
+
+<p>Richard is the author of &ldquo;Elm in Action&rdquo; from Manning Publications, and the
+instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
+about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm
+meetup, he likes to take a break from his job of writing Elm code full-time as
+an engineer at NoRedInk by kicking back and working on some of his open-source
+Elm projects.</p>
+
+<p>Some have said he’s &ldquo;a fan of Elm,&rdquo; but he’s not sure where they got that wild
+idea.</p>
+
+        </div>
+    </div>
+</section>
+<footer>
+	<section id="mailinglist">
+		<ul>
+			<li><h3>Mailing List</h3></li>
+			<li>
+				Subscribe to our mailing list to be notified of sale and CFP dates,
+				as well as pre-conference training goodies.
+			</li>
+			<li>
+        <form action="//elm-conf.us4.list-manage.com/subscribe/post?u=fa7fac034558813ada05778e6&amp;id=891ea3a34d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <fieldset>
+                <label for="mce-EMAIL">Email</label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </fieldset>
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fa7fac034558813ada05778e6_891ea3a34d" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+            </div>
+        </form>
+			</li>
+		</ul>
+	</section>
+
+	<section id="info">
+		<ul>
+			<li><h3>Sponsorship</h3></li>
+			<li>
+				Want to become a sponsor? See the <a
+				href="http://thestrangeloop.com/prospectus.html">Strange Loop prospectus
+				page</a> under "Elm Preconference Sponsorship".
+			</li>
+		</ul>
+	</section>
+
+	<section id="contact">
+		<ul>
+			<li><h3>Contact</h3></li>
+			<li><a href="mailto:elm-conf@thestrangeloop.com">Email</a></li>
+			<li><a href="https://twitter.com/ElmConf">@ElmConf</a></li>
+			<li><a href="https://twitter.com/search?q=%23ElmConf">#ElmConf</a></li>
+		</ul>
+	</section>
+
+	</footer>
+</body>
+</html>
+
