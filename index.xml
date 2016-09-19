@@ -6,8 +6,24 @@
     <description>Recent content on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Sep 2016 09:40:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 19 Sep 2016 08:31:19 -0500</lastBuildDate>
     <atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>All Speakers</title>
+      <link>https://www.elm-conf.us/speaker/q-and-a/</link>
+      <pubDate>Mon, 19 Sep 2016 08:31:19 -0500</pubDate>
+      
+      <guid>https://www.elm-conf.us/speaker/q-and-a/</guid>
+      <description>&lt;p&gt;Q&amp;amp;A Session with all the elm-conf speakers.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/LCNs92YQjhw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Q&amp;A</title>
@@ -57,6 +73,12 @@ elm-style-animation library in his pursuit of creating maintainable, beautiful
 apps in Elm.&lt;/p&gt;
 
 &lt;p&gt;Matthew is a developer in residence at Cornell Tech in Manhattan.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/DsDwYqsLU3E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -98,6 +120,12 @@ of &lt;a href=&#34;https://abadi199.github.io/elm-creditcard/&#34;&gt;Elm Credit
 Outside of work, he spends time with his wife and son, and works on making his
 house smarter so he can spend more time with his family and less on doing
 chores.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/fTHHn7NhU3w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -171,6 +199,12 @@ power of functional programming.&lt;/p&gt;
 
 &lt;p&gt;I find fulfillment and perfection in living in two worlds, and combining them
 into one.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/t8RSxzpw1Yw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -208,6 +242,12 @@ dynamically typed imperative languages, he has recently become fascinated with
 the statically typed functional world and Elm in particular. Outside of
 programming, Joël loves to study history. He often combines these two interests
 together to play with historically-themed software side projects.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/YxGWQdFo2Yc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -245,6 +285,12 @@ writes Ruby, Scala, Go, you name it. She speaks at conferences in the US,
 Europe, and Australia. She podcasts as a Ruby Rogue, parents two daughters, and
 writes Elm for fun. Look for her in St. Louis, San Francisco, and wherever
 functional programming and silliness meet.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/jJ4e6cIBgYM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -273,6 +319,12 @@ Elm code. Before joining NoRedInk, Tessa spent her time thinking about
 curricula, learning, and engagement in the context of teaching web development.
 She holds a BA in Mathematics from New York University, where she also minored
 in History and in Middle Eastern Studies.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/UBuFHCsz16A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -316,6 +368,12 @@ support higher education. He’s an Egghead.io instructor, a full-stack JS dev,
 and a functional programming padawan. He comes from a background in animation
 technologies, specializing in rendering and pipeline development. If you look
 carefully, you might see his name in the credits of a film.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/lPXVfqwYmEA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -354,6 +412,12 @@ the Elm community by speaking about the language, answering questions in the
 Elm Slack, writing blog posts, and organizing the Chicago Elm Meetup. When he
 is not thinking about code he likes to play the guitar, speed-run Metroid
 Fusion, and watch far too much TV with his fiancée.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/wpYFTG-uViE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -396,6 +460,12 @@ Elm projects.&lt;/p&gt;
 
 &lt;p&gt;Some have said he’s &amp;ldquo;a fan of Elm,&amp;rdquo; but he’s not sure where they got that wild
 idea.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/IcgmSRJHu_8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -430,6 +500,12 @@ Ossi has started two separate customer projects (both of them ongoing) using the
 language, making Futurice one of the first commercial users of Elm. He is also
 the main person behind Elm Native UI, the open source project trying to make
 building mobile apps with React Native possible in Elm, and Keyboard.Extra.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vpc80c5iC6k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 </description>
     </item>
     
@@ -474,50 +550,6 @@ minutes a day.&lt;/p&gt;
       <description>&lt;p&gt;&lt;a href=&#34;http://oasisdigital.com/&#34;&gt;Oasis Digital&lt;/a&gt; is a custom software development firm
 in St. Louis, MO. We create high quality software and solve hard problems, to
 help our customers thrive.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About elm-conf</title>
-      <link>https://www.elm-conf.us/about/</link>
-      <pubDate>Sat, 21 May 2016 14:05:34 -0500</pubDate>
-      
-      <guid>https://www.elm-conf.us/about/</guid>
-      <description>
-
-&lt;p&gt;Elm-conf is a new conference as of 2016. We want to promote Elm and the
-ecosystem around it by bringing together the brightest minds in the community
-for a day of mixing ideas and making connections.&lt;/p&gt;
-
-&lt;p&gt;Thank you to everyone who helped make elm-conf US a reality! Special thanks to
-&lt;a href=&#34;http://www.thestrangeloop.com&#34;&gt;Strange Loop&lt;/a&gt; for hosting the conference, to our
-great &lt;a href=&#34;https://www.elm-conf.us/sponsor/&#34;&gt;sponsors&lt;/a&gt; for making it affordable, and of course the talk
-selection committee: &lt;a href=&#34;https://twitter.com/jessitron&#34;&gt;Jessica Kerr&lt;/a&gt; and
-&lt;a href=&#34;https://twitter.com/rtfeldman&#34;&gt;Richard Feldman&lt;/a&gt;. It wouldn&amp;rsquo;t have been possible
-without you!&lt;/p&gt;
-
-&lt;h2 id=&#34;general-organizing-principles&#34;&gt;General organizing principles:&lt;/h2&gt;
-
-&lt;p&gt;We assume you know about Elm already. Beginner talks, while great, are more
-appropriate for a general-interest conference.&lt;/p&gt;
-
-&lt;p&gt;A thriving community is built on diversity. We encourage people from all
-different backgrounds and walks of life to attend and speak. To ensure that all
-are welcome, we follow and enforce a
-&lt;a href=&#34;http://thestrangeloop.com/policies.html&#34;&gt;code of conduct&lt;/a&gt;, to which all present
-at the conference are expected to adhere.&lt;/p&gt;
-
-&lt;p&gt;Community, not marketing. We don&amp;rsquo;t give the attendee list to any sponsors.&lt;/p&gt;
-
-&lt;p&gt;Blind auditions. Talks are selected anonymously by a diverse talk selection
-committee.&lt;/p&gt;
-
-&lt;h2 id=&#34;organizers&#34;&gt;Organizers:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Brian Hicks (&lt;a href=&#34;https://twitter.com/brianhicks&#34;&gt;@brianhicks&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Joseph Hager (&lt;a href=&#34;https://twitter.com/ajhager&#34;&gt;@ajhager&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
