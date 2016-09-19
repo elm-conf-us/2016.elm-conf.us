@@ -34,3 +34,5 @@ Ossi has started two separate customer projects (both of them ongoing) using the
 language, making Futurice one of the first commercial users of Elm. He is also
 the main person behind Elm Native UI, the open source project trying to make
 building mobile apps with React Native possible in Elm, and Keyboard.Extra.
+
+{{< youtube "vpc80c5iC6k" >}}

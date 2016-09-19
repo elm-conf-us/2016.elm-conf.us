@@ -41,3 +41,5 @@ support higher education. He’s an Egghead.io instructor, a full-stack JS dev,
 and a functional programming padawan. He comes from a background in animation
 technologies, specializing in rendering and pipeline development. If you look
 carefully, you might see his name in the credits of a film.
+
+{{< youtube "lPXVfqwYmEA" >}}

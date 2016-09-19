@@ -29,3 +29,5 @@ Elm code. Before joining NoRedInk, Tessa spent her time thinking about
 curricula, learning, and engagement in the context of teaching web development.
 She holds a BA in Mathematics from New York University, where she also minored
 in History and in Middle Eastern Studies.
+
+{{< youtube "UBuFHCsz16A" >}}

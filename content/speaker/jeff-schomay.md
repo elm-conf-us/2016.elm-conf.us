@@ -71,3 +71,5 @@ power of functional programming.
 
 I find fulfillment and perfection in living in two worlds, and combining them
 into one.
+
+{{< youtube "t8RSxzpw1Yw" >}}

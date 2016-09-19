@@ -13,3 +13,5 @@ source engineer at NoRedInk, where all front-end code is written in Elm these
 days. He continues to develop the language, tools, and libraries full time.
 
 <!--more-->
+
+{{< youtube "DSjbTC-hvqQ" >}}

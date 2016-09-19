@@ -37,3 +37,5 @@ writes Ruby, Scala, Go, you name it. She speaks at conferences in the US,
 Europe, and Australia. She podcasts as a Ruby Rogue, parents two daughters, and
 writes Elm for fun. Look for her in St. Louis, San Francisco, and wherever
 functional programming and silliness meet.
+
+{{< youtube "jJ4e6cIBgYM" >}}

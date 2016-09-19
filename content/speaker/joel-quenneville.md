@@ -36,3 +36,5 @@ dynamically typed imperative languages, he has recently become fascinated with
 the statically typed functional world and Elm in particular. Outside of
 programming, Joël loves to study history. He often combines these two interests
 together to play with historically-themed software side projects.
+
+{{< youtube "YxGWQdFo2Yc" >}}

@@ -38,3 +38,5 @@ the Elm community by speaking about the language, answering questions in the
 Elm Slack, writing blog posts, and organizing the Chicago Elm Meetup. When he
 is not thinking about code he likes to play the guitar, speed-run Metroid
 Fusion, and watch far too much TV with his fiancée.
+
+{{< youtube "wpYFTG-uViE" >}}

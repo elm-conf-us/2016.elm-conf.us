@@ -42,3 +42,5 @@ of [Elm Credit Card](https://abadi199.github.io/elm-creditcard/) and
 Outside of work, he spends time with his wife and son, and works on making his
 house smarter so he can spend more time with his family and less on doing
 chores.
+
+{{< youtube "fTHHn7NhU3w" >}}
