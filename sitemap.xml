@@ -2,113 +2,155 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.elm-conf.us/</loc>
+    <loc>https://2016.elm-conf.us/speaker/q-and-a/</loc>
     <lastmod>2016-09-19T08:31:19-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/q-and-a/</loc>
-    <lastmod>2016-09-19T08:31:19-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.elm-conf.us/qa/</loc>
+    <loc>https://2016.elm-conf.us/qa/</loc>
     <lastmod>2016-09-12T09:40:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/matthew-griffith/</loc>
+    <loc>https://2016.elm-conf.us/speaker/matthew-griffith/</loc>
     <lastmod>2016-07-12T08:26:13-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/abadi-kurniawan/</loc>
+    <loc>https://2016.elm-conf.us/speaker/abadi-kurniawan/</loc>
     <lastmod>2016-07-08T13:48:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/jeff-schomay/</loc>
+    <loc>https://2016.elm-conf.us/speaker/jeff-schomay/</loc>
     <lastmod>2016-07-08T11:26:42-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/joel-quenneville/</loc>
+    <loc>https://2016.elm-conf.us/speaker/joel-quenneville/</loc>
     <lastmod>2016-07-08T11:22:43-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/jessica-kerr/</loc>
+    <loc>https://2016.elm-conf.us/speaker/jessica-kerr/</loc>
     <lastmod>2016-07-08T11:18:16-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/tessa-kelly/</loc>
+    <loc>https://2016.elm-conf.us/speaker/tessa-kelly/</loc>
     <lastmod>2016-07-08T11:06:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/murphy-randle/</loc>
+    <loc>https://2016.elm-conf.us/speaker/murphy-randle/</loc>
     <lastmod>2016-07-08T10:57:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/luke-westby/</loc>
+    <loc>https://2016.elm-conf.us/speaker/luke-westby/</loc>
     <lastmod>2016-07-08T10:54:08-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/richard-feldman/</loc>
+    <loc>https://2016.elm-conf.us/speaker/richard-feldman/</loc>
     <lastmod>2016-07-08T10:27:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/ossi-hanhinen/</loc>
+    <loc>https://2016.elm-conf.us/speaker/ossi-hanhinen/</loc>
     <lastmod>2016-07-08T10:10:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/noredink/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/noredink/</loc>
     <lastmod>2016-06-06T14:56:48-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/dailydrip/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/dailydrip/</loc>
     <lastmod>2016-06-06T14:56:47-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/oasis-digital/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/oasis-digital/</loc>
     <lastmod>2016-06-01T14:16:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/about/</loc>
+    <loc>https://2016.elm-conf.us/about/</loc>
     <lastmod>2016-05-21T14:05:34-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/speaker/evan-czaplicki/</loc>
+    <loc>https://2016.elm-conf.us/speaker/evan-czaplicki/</loc>
     <lastmod>2016-05-18T07:48:25-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/asteris/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/asteris/</loc>
     <lastmod>2016-05-17T16:15:11-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/carfax/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/carfax/</loc>
     <lastmod>2016-03-20T16:15:11-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/stripe/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/stripe/</loc>
     <lastmod>2016-02-20T16:15:11-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.elm-conf.us/sponsor/manning/</loc>
+    <loc>https://2016.elm-conf.us/sponsor/manning/</loc>
     <lastmod>2016-01-20T16:15:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor_levels/branch/</loc>
+    <lastmod>2016-06-01T14:16:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor_levels/diversity/</loc>
+    <lastmod>2016-02-20T16:15:11-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor_levels/promotion/</loc>
+    <lastmod>2016-05-17T16:15:11-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor_levels/root/</loc>
+    <lastmod>2016-06-06T14:56:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/speaker/</loc>
+    <lastmod>2016-09-19T08:31:19-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor_levels/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/sponsor/</loc>
+    <lastmod>2016-06-06T14:56:48-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://2016.elm-conf.us/</loc>
+    <lastmod>2016-09-19T08:31:19-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

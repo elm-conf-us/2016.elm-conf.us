@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sponsors on elm-conf 2016</title>
-    <link>https://www.elm-conf.us/sponsor/</link>
+    <link>https://2016.elm-conf.us/sponsor/index.xml</link>
     <description>Recent content in Sponsors on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jun 2016 14:56:48 -0500</lastBuildDate>
-    <atom:link href="https://www.elm-conf.us/sponsor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://2016.elm-conf.us/sponsor/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>NoRedInk</title>
-      <link>https://www.elm-conf.us/sponsor/noredink/</link>
+      <link>https://2016.elm-conf.us/sponsor/noredink/</link>
       <pubDate>Mon, 06 Jun 2016 14:56:48 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/noredink/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/noredink/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.noredink.com/jobs&#34;&gt;NoRedInk&lt;/a&gt; has the largest commercial Elm
 codebase in the world, and has
 &lt;a href=&#34;http://tech.noredink.com/post/136615783598/welcome-evan&#34;&gt;hired Elm creator Evan Czaplicki&lt;/a&gt;
@@ -30,10 +30,10 @@ No prior Elm experience necessary!&lt;/p&gt;
     
     <item>
       <title>DailyDrip</title>
-      <link>https://www.elm-conf.us/sponsor/dailydrip/</link>
+      <link>https://2016.elm-conf.us/sponsor/dailydrip/</link>
       <pubDate>Mon, 06 Jun 2016 14:56:47 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/dailydrip/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/dailydrip/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.dailydrip.com/?utm_source=elm-conf&amp;amp;utm_medium=banner&amp;amp;utm_campaign=elm-conf-2016&#34;&gt;DailyDrip&lt;/a&gt;
 makes learning easier. Every weekday you&amp;rsquo;ll get a bite-sized piece of something
 awesome about a topic you are interested in. Best of all: it only takes five
@@ -43,10 +43,10 @@ minutes a day.&lt;/p&gt;
     
     <item>
       <title>Oasis Digital</title>
-      <link>https://www.elm-conf.us/sponsor/oasis-digital/</link>
+      <link>https://2016.elm-conf.us/sponsor/oasis-digital/</link>
       <pubDate>Wed, 01 Jun 2016 14:16:00 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/oasis-digital/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/oasis-digital/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://oasisdigital.com/&#34;&gt;Oasis Digital&lt;/a&gt; is a custom software development firm
 in St. Louis, MO. We create high quality software and solve hard problems, to
 help our customers thrive.&lt;/p&gt;
@@ -55,10 +55,10 @@ help our customers thrive.&lt;/p&gt;
     
     <item>
       <title>Asteris</title>
-      <link>https://www.elm-conf.us/sponsor/asteris/</link>
+      <link>https://2016.elm-conf.us/sponsor/asteris/</link>
       <pubDate>Tue, 17 May 2016 16:15:11 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/asteris/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/asteris/</guid>
       <description>&lt;p&gt;Founded in 2014, &lt;a href=&#34;https://aster.is&#34;&gt;Asteris&lt;/a&gt; provides software design and
 development services for next-generation infrastructure software for the modern
 datacenter. Take advantage of powerful tools without needing a team of experts
@@ -69,30 +69,30 @@ to any cloud in minutes.&lt;/p&gt;
     
     <item>
       <title>Carfax</title>
-      <link>https://www.elm-conf.us/sponsor/carfax/</link>
+      <link>https://2016.elm-conf.us/sponsor/carfax/</link>
       <pubDate>Sun, 20 Mar 2016 16:15:11 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/carfax/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/carfax/</guid>
       <description>&lt;p&gt;CARFAX is web-based service that supplies vehicle history reports to individuals and businesses on used cars and light trucks, with the most comprehensive vehicle history database available in North America.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Stripe</title>
-      <link>https://www.elm-conf.us/sponsor/stripe/</link>
+      <link>https://2016.elm-conf.us/sponsor/stripe/</link>
       <pubDate>Sat, 20 Feb 2016 16:15:11 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/stripe/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/stripe/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://stripe.com/&#34;&gt;Stripe&lt;/a&gt; is an American technology company, operating in over 20 countries, that allows both private individuals and businesses to accept payments over the Internet. Stripe focuses on providing the technical, fraud prevention, and banking infrastructure required to operate online payment systems.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Manning</title>
-      <link>https://www.elm-conf.us/sponsor/manning/</link>
+      <link>https://2016.elm-conf.us/sponsor/manning/</link>
       <pubDate>Wed, 20 Jan 2016 16:15:11 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/manning/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/manning/</guid>
       <description>&lt;p&gt;Manning is an independent publisher of computer books for software developers, engineers, architects, system administrators, managers and all who are professionally involved with the computer business. We also publish for students and young programmers, including occasionally for children.&lt;/p&gt;
 </description>
     </item>

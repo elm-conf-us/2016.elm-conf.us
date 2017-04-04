@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elm-conf 2016</title>
-    <link>https://www.elm-conf.us/</link>
+    <link>https://2016.elm-conf.us/index.xml</link>
     <description>Recent content on elm-conf 2016</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Sep 2016 08:31:19 -0500</lastBuildDate>
-    <atom:link href="https://www.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://2016.elm-conf.us/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>All Speakers</title>
-      <link>https://www.elm-conf.us/speaker/q-and-a/</link>
+      <link>https://2016.elm-conf.us/speaker/q-and-a/</link>
       <pubDate>Mon, 19 Sep 2016 08:31:19 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/q-and-a/</guid>
+      <guid>https://2016.elm-conf.us/speaker/q-and-a/</guid>
       <description>&lt;p&gt;Q&amp;amp;A Session with all the elm-conf speakers.&lt;/p&gt;
 
 
@@ -27,10 +27,10 @@
     
     <item>
       <title>Q&amp;A</title>
-      <link>https://www.elm-conf.us/qa/</link>
+      <link>https://2016.elm-conf.us/qa/</link>
       <pubDate>Mon, 12 Sep 2016 09:40:00 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/qa/</guid>
+      <guid>https://2016.elm-conf.us/qa/</guid>
       <description>&lt;p&gt;This year&amp;rsquo;s Q&amp;amp;A session is hosted on &lt;a href=&#34;https://github.com/elm-conf-us/2016-q-and-a/issues&#34;&gt;Github Issues&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Warping in 3&amp;hellip; 2&amp;hellip; 1&amp;hellip;&lt;/p&gt;
@@ -41,14 +41,16 @@
     
     <item>
       <title>Matthew Griffith</title>
-      <link>https://www.elm-conf.us/speaker/matthew-griffith/</link>
+      <link>https://2016.elm-conf.us/speaker/matthew-griffith/</link>
       <pubDate>Tue, 12 Jul 2016 08:26:13 -0600</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/matthew-griffith/</guid>
+      <guid>https://2016.elm-conf.us/speaker/matthew-griffith/</guid>
       <description>&lt;p&gt;Games and rich applications present a compelling use-case for Elm, but managing
 dynamic animations can quickly become complicated. Here’s how to succinctly
 express animation pipelines using the elm-style-animation library and how to
 architect your animation code in a readable, extensible manner.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;In this talk we’ll cover…&lt;/p&gt;
 
@@ -77,21 +79,21 @@ apps in Elm.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/DsDwYqsLU3E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Abadi Kurniawan</title>
-      <link>https://www.elm-conf.us/speaker/abadi-kurniawan/</link>
+      <link>https://2016.elm-conf.us/speaker/abadi-kurniawan/</link>
       <pubDate>Fri, 08 Jul 2016 13:48:16 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/abadi-kurniawan/</guid>
+      <guid>https://2016.elm-conf.us/speaker/abadi-kurniawan/</guid>
       <description>&lt;p&gt;While Elm pretty much solves the tool and framework fatigue when starting a new
 front-end project, we still have the same issue for the back-end. Using Horizon
 in your Elm app can help alleviate the pain by reducing the amount of work you
 have to do in the back-end, so you can write more Elm code.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;When starting a new project in JavaScript, you’re most likely going to spend a
 lot of time choosing the tools and frameworks to use, and then spend more time
@@ -124,21 +126,21 @@ chores.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/fTHHn7NhU3w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Jeff Schomay</title>
-      <link>https://www.elm-conf.us/speaker/jeff-schomay/</link>
+      <link>https://2016.elm-conf.us/speaker/jeff-schomay/</link>
       <pubDate>Fri, 08 Jul 2016 11:26:42 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/jeff-schomay/</guid>
+      <guid>https://2016.elm-conf.us/speaker/jeff-schomay/</guid>
       <description>&lt;p&gt;The Elm Architecture works great for apps, but how about for building a game
 framework? This talk looks at using the strengths of Elm to build the open
 source “Elm Narrative Engine,” including an example interactive story and the
 challenges and solutions faced in using Elm to make a framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;As a programmer by profession and passion, but with a background and schooling
 in film production and screenwriting, I have forever been drawn to playing and
@@ -203,22 +205,20 @@ into one.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/t8RSxzpw1Yw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Joël Quenneville</title>
-      <link>https://www.elm-conf.us/speaker/joel-quenneville/</link>
+      <link>https://2016.elm-conf.us/speaker/joel-quenneville/</link>
       <pubDate>Fri, 08 Jul 2016 11:22:43 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/joel-quenneville/</guid>
+      <guid>https://2016.elm-conf.us/speaker/joel-quenneville/</guid>
       <description>&lt;p&gt;Dive into Elm’s random generators on a quest to build a historically accurate
 Roman random name generator for the goddess Juno, based on a series of dependent
 and independent constraints.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&#34;hugomore42&#34;&gt;&lt;/h2&gt;
 
 &lt;p&gt;You are an ancient software engineer. Juno, the Roman goddess of marriage and
 fertility, surprises you by walking into your office and offering you an
@@ -246,23 +246,23 @@ together to play with historically-themed software side projects.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/YxGWQdFo2Yc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Jessica Kerr</title>
-      <link>https://www.elm-conf.us/speaker/jessica-kerr/</link>
+      <link>https://2016.elm-conf.us/speaker/jessica-kerr/</link>
       <pubDate>Fri, 08 Jul 2016 11:18:16 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/jessica-kerr/</guid>
+      <guid>https://2016.elm-conf.us/speaker/jessica-kerr/</guid>
       <description>&lt;p&gt;I love the explicitness and structure of Elm. I don’t love typing.&lt;/p&gt;
 
 &lt;p&gt;A mechanical friend can help with both: smart templates modify code to perform
 common tasks, and Github PRs keep this safe and editor-independent.&lt;/p&gt;
 
 &lt;p&gt;See an Elm project created and grown with strategically placed automation.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;I love the explicitness and the consistent structure of Elm code and the Elm
 Architecture. Sometimes I don’t love the typing involved.&lt;/p&gt;
@@ -289,20 +289,20 @@ functional programming and silliness meet.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/jJ4e6cIBgYM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Tessa Kelly</title>
-      <link>https://www.elm-conf.us/speaker/tessa-kelly/</link>
+      <link>https://2016.elm-conf.us/speaker/tessa-kelly/</link>
       <pubDate>Fri, 08 Jul 2016 11:06:34 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/tessa-kelly/</guid>
+      <guid>https://2016.elm-conf.us/speaker/tessa-kelly/</guid>
       <description>&lt;p&gt;Elegant data structures are different across programming languages, and creating
 them should be approached differently. Leverage Elm’s union types to build
 simple and readable structures, beginning with binary trees.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Writing a binary tree might be a familiar task in JavaScript or Ruby, and it
 might seem like a very similar problem in Elm. While it’s possible to create
@@ -323,21 +323,21 @@ in History and in Middle Eastern Studies.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/UBuFHCsz16A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Murphy Randle</title>
-      <link>https://www.elm-conf.us/speaker/murphy-randle/</link>
+      <link>https://2016.elm-conf.us/speaker/murphy-randle/</link>
       <pubDate>Fri, 08 Jul 2016 10:57:34 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/murphy-randle/</guid>
+      <guid>https://2016.elm-conf.us/speaker/murphy-randle/</guid>
       <description>&lt;p&gt;This talk combines the power of Elm and Elixir’s Phoenix to turn Twitter into a
 platform for live crowd-sourced music composition. We’ll cover Elm and Elixir
 channels, custom DSL parsing in Elm, and driving the Web Audio API through Elm’s
 native inter-op abstraction: ports.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;This talk aims to demonstrate the power of coordinating:&lt;/p&gt;
 
@@ -372,21 +372,21 @@ carefully, you might see his name in the credits of a film.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/lPXVfqwYmEA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Luke Westby</title>
-      <link>https://www.elm-conf.us/speaker/luke-westby/</link>
+      <link>https://2016.elm-conf.us/speaker/luke-westby/</link>
       <pubDate>Fri, 08 Jul 2016 10:54:08 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/luke-westby/</guid>
+      <guid>https://2016.elm-conf.us/speaker/luke-westby/</guid>
       <description>&lt;p&gt;I have ADHD and struggle to stay focused on things. This has actually been
 helpful in learning JS since things change as quickly as my attention does, but
 it makes it hard to finish things. Elm pushes out distractions so I can focus,
 and at last the first side-project I’ve ever completed is in Elm!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve lived with ADHD my whole life. There are certainly worse things to live
 with, but our world is tailored to people who can concentrate – tasks and
@@ -416,22 +416,22 @@ Fusion, and watch far too much TV with his fiancée.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/wpYFTG-uViE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Richard Feldman</title>
-      <link>https://www.elm-conf.us/speaker/richard-feldman/</link>
+      <link>https://2016.elm-conf.us/speaker/richard-feldman/</link>
       <pubDate>Fri, 08 Jul 2016 10:27:13 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/richard-feldman/</guid>
+      <guid>https://2016.elm-conf.us/speaker/richard-feldman/</guid>
       <description>&lt;p&gt;Among the most time-consuming bugs to track down are the ones where we look at
 our application state and say &amp;ldquo;this shouldn’t be possible.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;We can use Elm’s compiler to rule out many of these bugs in the first place—but
 only if we design our Models using the right techniques! This talk explores how.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;When I first started using Elm, I wrote my Models roughly the same way I would
 have in JavaScript. I was happy that I no longer got type mismatches, but I
@@ -464,21 +464,21 @@ idea.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/IcgmSRJHu_8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Ossi Hanhinen</title>
-      <link>https://www.elm-conf.us/speaker/ossi-hanhinen/</link>
+      <link>https://2016.elm-conf.us/speaker/ossi-hanhinen/</link>
       <pubDate>Fri, 08 Jul 2016 10:10:34 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/speaker/ossi-hanhinen/</guid>
+      <guid>https://2016.elm-conf.us/speaker/ossi-hanhinen/</guid>
       <description>&lt;p&gt;Have you come into grips with Elm as a language and prolific enough to start
 using it in a real project? Awesome! Did you already have an idea of how you
 would structure your application, handle authentication and maybe show
 toast-like pop up messages in the UI? If not, this talk is for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Many people know how to create small apps for fun in Elm. Some have crafted
 larger things but felt they were missing something. Having done two larger
@@ -504,17 +504,15 @@ building mobile apps with React Native possible in Elm, and Keyboard.Extra.&lt;/
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/vpc80c5iC6k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+ &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>NoRedInk</title>
-      <link>https://www.elm-conf.us/sponsor/noredink/</link>
+      <link>https://2016.elm-conf.us/sponsor/noredink/</link>
       <pubDate>Mon, 06 Jun 2016 14:56:48 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/noredink/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/noredink/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.noredink.com/jobs&#34;&gt;NoRedInk&lt;/a&gt; has the largest commercial Elm
 codebase in the world, and has
 &lt;a href=&#34;http://tech.noredink.com/post/136615783598/welcome-evan&#34;&gt;hired Elm creator Evan Czaplicki&lt;/a&gt;
@@ -530,10 +528,10 @@ No prior Elm experience necessary!&lt;/p&gt;
     
     <item>
       <title>DailyDrip</title>
-      <link>https://www.elm-conf.us/sponsor/dailydrip/</link>
+      <link>https://2016.elm-conf.us/sponsor/dailydrip/</link>
       <pubDate>Mon, 06 Jun 2016 14:56:47 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/dailydrip/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/dailydrip/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.dailydrip.com/?utm_source=elm-conf&amp;amp;utm_medium=banner&amp;amp;utm_campaign=elm-conf-2016&#34;&gt;DailyDrip&lt;/a&gt;
 makes learning easier. Every weekday you&amp;rsquo;ll get a bite-sized piece of something
 awesome about a topic you are interested in. Best of all: it only takes five
@@ -543,10 +541,10 @@ minutes a day.&lt;/p&gt;
     
     <item>
       <title>Oasis Digital</title>
-      <link>https://www.elm-conf.us/sponsor/oasis-digital/</link>
+      <link>https://2016.elm-conf.us/sponsor/oasis-digital/</link>
       <pubDate>Wed, 01 Jun 2016 14:16:00 -0500</pubDate>
       
-      <guid>https://www.elm-conf.us/sponsor/oasis-digital/</guid>
+      <guid>https://2016.elm-conf.us/sponsor/oasis-digital/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://oasisdigital.com/&#34;&gt;Oasis Digital&lt;/a&gt; is a custom software development firm
 in St. Louis, MO. We create high quality software and solve hard problems, to
 help our customers thrive.&lt;/p&gt;
